@@ -1,6 +1,6 @@
 # gcal-java-lib
 
-Gaurabda Calendar
+Gaurabda Calendar.
 Author: Gopalapriya das
 http://gopal.home.sk/gcal/index.html
 
