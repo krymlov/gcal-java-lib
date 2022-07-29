@@ -22,6 +22,5 @@ public class GCalManager {
      *
      * @return string in xml format which describes the result of the given query
      */
-    public static synchronized native String nativeGCal4Query(String gcalQuery);
-
+    public static native String nativeGCal4Query(String gcalQuery);
 }

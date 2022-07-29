@@ -1,0 +1,2307 @@
+
+<!-- saved from url=(0049)http://www.gopal.home.sk/gcalw/gcalcgi-manual.htm -->
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 11">
+<meta name="Originator" content="Microsoft Word 11">
+<link rel="File-List" href="http://www.gopal.home.sk/gcalw/gcalcgi-manual_files/filelist.xml">
+<title>GCAL CGI - MANUAL</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>bhakta</o:Author>
+  <o:LastAuthor>peter.kollath</o:LastAuthor>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>26</o:TotalTime>
+  <o:Created>2009-11-12T10:17:00Z</o:Created>
+  <o:LastSaved>2010-07-04T09:13:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>552</o:Words>
+  <o:Characters>3147</o:Characters>
+  <o:Lines>26</o:Lines>
+  <o:Paragraphs>7</o:Paragraphs>
+  <o:CharactersWithSpaces>3692</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:CS;
+	mso-fareast-language:CS;}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;
+	mso-ansi-language:CS;
+	mso-fareast-language:CS;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	page-break-before:always;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .5pt;
+	padding:0in;
+	mso-padding-alt:0in 0in 1.0pt 0in;
+	font-size:13.0pt;
+	font-family:Arial;
+	mso-ansi-language:CS;
+	mso-fareast-language:CS;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-noshow:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:10.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:CS;
+	mso-fareast-language:CS;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]-->
+</head>
+
+<body lang="EN-US" style="tab-interval:35.4pt">
+
+<div class="Section1">
+
+<h1><span lang="SK" style="mso-ansi-language:SK">GCAL CGI - MANUAL<o:p></o:p></span></h1>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<div style="mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
+mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in">
+
+<h3 style="page-break-before:auto"><span lang="SK" style="mso-ansi-language:SK">Basic
+Info<o:p></o:p></span></h3>
+
+</div>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">Input: system
+variable QUERY_STRING<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">Output: standard
+output<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">Format of output:
+XML</span><span style="mso-ansi-language:EN-US"><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<div style="mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
+mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in">
+
+<h3 style="page-break-before:auto"><span style="mso-ansi-language:EN-US">Installation<o:p></o:p></span></h3>
+
+</div>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US">gcal.exe should be
+copied into cgi-bin directory as any other CGI script. Also additional settings
+for Web Server should be performed so Web Server will know about this cgi
+program.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<div style="mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
+mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in">
+
+<h3 style="page-break-before:auto"><span style="mso-ansi-language:EN-US">Implementation<o:p></o:p></span></h3>
+
+</div>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US">Calling this script is
+performed via HTTP request.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US">http://&lt;ip-address&gt;/cgi-bin/gcal.exe?&lt;parameters&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US">&lt;parameters&gt; is
+list of parameters separated by character &amp;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US">&lt;parameters&gt; =
+&lt;parameter1&gt;&amp;&lt;parameter2&gt;&amp;......&amp;&lt;parameterN&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US">&lt;parameter&gt; is
+pair of strings separated by character =<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US">&lt;parameter&gt;<span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>&lt;key&gt;=&lt;value&gt;<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US">In the document
+gcalcgi-examples are examples of &lt;parameters&gt; as well as output from
+gcal.exe given by these queries.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">Next:<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span style="color:navy;mso-ansi-language:EN-US">Functions
+(queries)<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="color:navy;mso-ansi-language:EN-US">Parameters<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<div style="mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
+mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in">
+
+<h3><span style="mso-ansi-language:EN-US">Functions (Queries)<o:p></o:p></span></h3>
+
+</div>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US">In the first column is
+value of key q. By character x is denoted that parameter, which is relevant for
+that query.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" width="624" style="width:467.9pt;border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-padding-alt:0in 3.5pt 0in 3.5pt;mso-border-insideh:.5pt solid windowtext;
+ mso-border-insidev:.5pt solid windowtext">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:33.05pt">
+  <td style="border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">q<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">la<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">lo<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">lt<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">lc<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">ty<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">tm<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">td<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">th<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">tmin<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">tc<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">gy<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">gm<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">gp<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:4.25pt 3.5pt 4.25pt 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">gt<o:p></o:p></span></b></p>
+  </td>
+  <td style="border:solid windowtext 1.0pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;
+  height:33.05pt">
+  <p class="MsoNormal"><b><span style="font-size:14.0pt;mso-bidi-font-size:12.0pt;
+  color:navy;mso-ansi-language:EN-US">dst<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;height:13.85pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">firstday<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2;height:13.85pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">masastart<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3;height:14.6pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">appday<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4;height:28.45pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">sankranti<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5;height:13.85pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">calendar<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:6;height:28.45pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">gcalendar<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:7;height:13.85pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">naksatra<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:8;height:14.6pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">gtithi<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:14.6pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:9;height:13.85pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">tithi<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:10;height:13.85pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">next<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:13.85pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:11;height:28.45pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">gnaksatra<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:12;mso-yfti-lastrow:yes;height:28.45pt">
+  <td style="border:solid windowtext 1.0pt;border-top:none;mso-border-top-alt:
+  solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><b><span style="mso-ansi-language:EN-US">paksastart<o:p></o:p></span></b></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US">x<o:p></o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:4.25pt 3.5pt 4.25pt 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:28.45pt">
+  <p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span style="mso-ansi-language:EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<div style="mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
+mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in">
+
+<h3><span lang="SK" style="mso-ansi-language:SK">Parameters<o:p></o:p></span></h3>
+
+</div>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-padding-alt:0in 3.5pt 0in 3.5pt;mso-border-insideh:.5pt solid windowtext;
+ mso-border-insidev:.5pt solid windowtext">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="color:navy;mso-ansi-language:SK">parameter<o:p></o:p></span></b></p>
+  <p class="MsoNormal"><b><span lang="SK" style="color:navy;mso-ansi-language:SK">key<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="color:navy;mso-ansi-language:SK">explanation
+  of value<o:p></o:p></span></b></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="color:navy;mso-ansi-language:SK">example
+  1<o:p></o:p></span></b></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="color:navy;mso-ansi-language:SK">example
+  2 <o:p></o:p></span></b></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="color:navy;mso-ansi-language:SK">possible
+  values<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">la<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">latitude<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">12N30<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">15S06<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">lo<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">longitude<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">56E13<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">10W45<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">lt<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">timezone<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">5E30<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">7W00<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">lc<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">location name<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">Mayapur<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">ty<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">year<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">2008<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1965<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1500 ... 3000<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:6">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">tm<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">month<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">5<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1...12<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:7">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">td<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">day<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">31<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1...31<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:8">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">th<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">hour<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">5<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">17<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">0...23<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:9">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">tmin<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">minute<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">0<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">45<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">0...59<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:10">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">tc<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">count of days<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">10<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">300<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1...84000<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:11">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">gy<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">gaurabda year<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">512<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">560<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">0...2500<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:12">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">gm<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">masa<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">0<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">3<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">0...11 (0 is
+  for Visnu Masa)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:13">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">gp<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">paksa<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">0<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">0 for Krsna
+  Paksa, 1 for Gaura Paksa<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:14">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">gt<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">tithi<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">15<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1...15 (1 for
+  Pratipat, 15 for Purnima or Amavasya)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:15;mso-yfti-lastrow:yes">
+  <td width="87" valign="top" style="width:65.05pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><b><span lang="SK" style="mso-ansi-language:SK">dst<o:p></o:p></span></b></p>
+  </td>
+  <td width="98" valign="top" style="width:73.7pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">daylight saving
+  time data<o:p></o:p></span></p>
+  </td>
+  <td width="88" valign="top" style="width:65.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">3x0x5x0x10x0x5x0<o:p></o:p></span></p>
+  </td>
+  <td width="92" valign="top" style="width:68.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">11x0x5x0x3x0x5x0<o:p></o:p></span></p>
+  </td>
+  <td width="249" valign="top" style="width:187.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">Explanation
+  below.<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<div style="mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
+mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in">
+
+<h3><span lang="SK" style="mso-ansi-language:SK">Daylight Saving Time data<o:p></o:p></span></h3>
+
+</div>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">This section
+explains the meaning of value of DST parameter in the query for calendar and
+gcalendar calculations.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:35.4pt"><span lang="SK" style="mso-ansi-language:
+SK">Example:<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:35.4pt"><span lang="SK" style="mso-ansi-language:
+SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><b style="mso-bidi-font-weight:
+normal"><span lang="SK" style="mso-ansi-language:SK">3x0x5x0x10x0x5x0<o:p></o:p></span></b></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">Each parameter
+consists from 8 numbers separated by character 'x'.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">First 4 numbers
+are for start date, second 4 numbers are for end date of DST within the year.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">Here is table
+with the meanings of numbers on given position:<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-yfti-tbllook:480;mso-padding-alt:0in 5.4pt 0in 5.4pt;mso-border-insideh:
+ .5pt solid windowtext;mso-border-insidev:.5pt solid windowtext">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+  <td valign="top" style="border:solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="SK" style="mso-ansi-language:SK">position<o:p></o:p></span></b></p>
+  </td>
+  <td valign="top" style="border:solid windowtext 1.0pt;border-left:none;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="SK" style="mso-ansi-language:SK">meaning<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1">
+  <td valign="top" style="border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">1<o:p></o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">starting month
+  of DST<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:2">
+  <td valign="top" style="border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">2<o:p></o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">type of start
+  day (0-start day is given by week and weekday within month, 1-start day is
+  given by day within month)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3">
+  <td valign="top" style="border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">3<o:p></o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">if type is 0,
+  then this is number of week (1,2,3,4 are absolute values, 5 means
+  "last" week)<br>
+  if type is 1, then this is number of day within month (1, ..., 31)<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:4">
+  <td valign="top" style="border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">4<o:p></o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">if type is 0,
+  then this is weekday number (0 ...sunday, 1..monday, ..... 6..saturday)<o:p></o:p></span></p>
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">if type is 1,
+  then this is ignored but dummy number should be placed here<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:5;mso-yfti-lastrow:yes">
+  <td valign="top" style="border:solid windowtext 1.0pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">5,6,7,8<o:p></o:p></span></p>
+  </td>
+  <td valign="top" style="border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt">
+  <p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK">the same as
+  1,2,3,4 except they are for ending date<o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:35.4pt"><span lang="SK" style="mso-ansi-language:
+SK">Example 1:<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">DST is starting on last sunday in March and ending on first sunday in
+November<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Starting month is March ==&gt; 3<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Start date is given by week and weekday so type is ==&gt; 0<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Last week is ==&gt; 5<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Sunday is ==&gt; 0<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Ending month is November ==&gt; 11<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Ending date is given by week and weekday so type is ==&gt; 0<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">First week is ==&gt; 1<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Sunday is ==&gt; 0<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Now we have resulting string<span style="mso-spacerun:yes">&nbsp;&nbsp; </span><b style="mso-bidi-font-weight:normal">3x0x5x0x11x0x1x0</b><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:35.4pt"><span lang="SK" style="mso-ansi-language:
+SK">Example 2<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">DST is starting on March 15 and ending on last sunday in October<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Starting month is March ==&gt; 3<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Start date is given by day number so type is ==&gt; 1<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Day is ==&gt; 15<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Dummy number ==&gt; 0<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Ending month is October ==&gt; 10<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Ending date is given by week and weekday so type is ==&gt; 0<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Last week is ==&gt; 5<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Sunday is ==&gt; 0<o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="margin-left:70.8pt"><span lang="SK" style="mso-ansi-language:
+SK">Now we have string:<span style="mso-spacerun:yes">&nbsp; </span><b style="mso-bidi-font-weight:normal">3x1x15x0x10x0x5x0</b><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="SK" style="mso-ansi-language:SK"><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+
+
+
+</body></html>
