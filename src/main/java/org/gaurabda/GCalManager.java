@@ -14,7 +14,7 @@ public class GCalManager {
     private static final GCalManager instance = new GCalManager();
 
     private GCalManager() {
-        System.loadLibrary("gcal-11i");
+        System.loadLibrary("gcal-11j");
     }
 
     /**
