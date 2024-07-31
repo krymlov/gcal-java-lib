@@ -8,6 +8,7 @@ package org.gaurabda;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.RepetitionInfo;
 
+import java.io.IOException;
 import java.util.Random;
 
 /**
@@ -19,11 +20,15 @@ import java.util.Random;
 public class GCalKyivTest extends AGaurabdaTest {
     private static final Random random = new Random();
 
-    @RepeatedTest(50)
-    void testMonths(RepetitionInfo info) {
-        String query = makeGCalQuery(2000 + info.getCurrentRepetition(),
-                random.nextInt(12) + 1, random.nextInt(100) + 1);
-        System.out.println(query + " => " + GCalManager.nativeGCal4Query(query).length() + " bytes");
+    @RepeatedTest(5)
+    void testMonths(RepetitionInfo info) throws IOException {
+        int i = info.getCurrentRepetition();
+        String query = makeGCalQuery(2020 + i, i, 100);
+		String gcalXml = GCalManager.nativeGCal4Query(query);
+        System.out.println(query + " => " + gcalXml.length() + " bytes");
+        //String normalizedFilename = FilenameUtils.normalize(query + ".xml");
+        //normalizedFilename = normalizedFilename.replace(':', '_');
+        //FileUtils.writeStringToFile(new File(normalizedFilename), gcalXml);
     }
 
     /**
@@ -41,7 +46,8 @@ public class GCalKyivTest extends AGaurabdaTest {
      */
     String makeGCalQuery(int year, int month, int countOfDays) {
         final StringBuilder sb = new StringBuilder(255);
-        sb.append("q=calendar&lc=Kyiv&la=50N27&lo=30E31");
+        //sb.append("q=calendar&lc=Kyiv&la=50N27&lo=30E31");
+        sb.append("q=calendar&lc=Kyiv&la=50.45&lo=30E31");
 
         sb.append("&ty=").append(year).append("&tm=").append(month);
         sb.append("&td=").append(1).append("&tc=").append(countOfDays);
