@@ -5,9 +5,12 @@
  */
 package org.gaurabda;
 
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FilenameUtils;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.RepetitionInfo;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 
@@ -23,7 +26,7 @@ public class GCalKyivTest extends AGaurabdaTest {
     @RepeatedTest(5)
     void testMonths(RepetitionInfo info) throws IOException {
         int i = info.getCurrentRepetition();
-        String query = makeGCalQuery(2020 + i, i, 100);
+        String query = makeGCalQuery(2020 + i, i, 120);
 		String gcalXml = GCalManager.nativeGCal4Query(query);
         System.out.println(query + " => " + gcalXml.length() + " bytes");
         //String normalizedFilename = FilenameUtils.normalize(query + ".xml");
