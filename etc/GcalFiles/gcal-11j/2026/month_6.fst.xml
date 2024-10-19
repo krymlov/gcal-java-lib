@@ -1,0 +1,545 @@
+<xml>
+	<request name="Calendar" version="GCal 11j3">
+		<arg name="longitude" val="+30.52340" />
+		<arg name="latitude" val="+50.45010" />
+		<arg name="timezone" val="+2.00000" />
+		<arg name="startdate" val="1 Jun 2026" />
+		<arg name="daycount" val="30" />
+		<arg name="dst" val="x810590288" />
+	</request>
+	<result name="Calendar">
+	<masa name="Purusottama-adhika Masa" gyear="Gaurabda 540">
+	<day date="1 Jun 2026" dayweekid="1" dayweek="Mo">
+		<sunrise time="04:51:45">
+			<tithi name="Pratipat" elapse="64.8" index="1"/>
+			<naksatra name="Jyestha" elapse="56.3" />
+			<yoga name="Sadhya" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:15:45">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="12:56:03" />
+		<sunset time="21:00:21" />
+		<moon rise="22:51:15" set="04:42:07" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="2 Jun 2026" dayweekid="2" dayweek="Tu">
+		<sunrise time="04:51:01">
+			<tithi name="Dvitiya" elapse="55.6" index="2"/>
+			<naksatra name="Mula" elapse="45.2" />
+			<yoga name="Subha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:15:01">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="12:56:12" />
+		<sunset time="21:01:22" />
+		<moon rise="23:35:10" set="05:32:11" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="3 Jun 2026" dayweekid="3" dayweek="We">
+		<sunrise time="04:50:20">
+			<tithi name="Tritiya" elapse="46.6" index="3"/>
+			<naksatra name="Purva-asadha" elapse="34.2" />
+			<yoga name="Subha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:14:20">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="12:56:21" />
+		<sunset time="21:02:21" />
+		<moon rise="N/A" set="06:33:30" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="4 Jun 2026" dayweekid="4" dayweek="Th">
+		<sunrise time="04:49:42">
+			<tithi name="Caturthi" elapse="37.9" index="4"/>
+			<naksatra name="Uttara-asadha" elapse="23.6" />
+			<yoga name="Sukla" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:13:42">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="12:56:30" />
+		<sunset time="21:03:18" />
+		<moon rise="00:08:00" set="07:42:43" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="5 Jun 2026" dayweekid="5" dayweek="Fr">
+		<sunrise time="04:49:07">
+			<tithi name="Pancami" elapse="29.9" index="5"/>
+			<naksatra name="Sravana" elapse="13.6" />
+			<yoga name="Brahma" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:13:07">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="12:56:40" />
+		<sunset time="21:04:13" />
+		<moon rise="00:32:25" set="08:55:50" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="6 Jun 2026" dayweekid="6" dayweek="Sa">
+		<sunrise time="04:48:34">
+			<tithi name="Sasti" elapse="23.2" index="6"/>
+			<naksatra name="Dhanista" elapse="4.8" />
+			<yoga name="Indra" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:12:34">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="12:56:50" />
+		<sunset time="21:05:06" />
+		<moon rise="00:51:10" set="10:10:05" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="7 Jun 2026" dayweekid="0" dayweek="Su">
+		<sunrise time="04:48:04">
+			<tithi name="Saptami" elapse="18.3" index="7"/>
+			<naksatra name="Dhanista" elapse="97.5" />
+			<yoga name="Vaidhriti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:12:04">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="12:57:00" />
+		<sunset time="21:05:56" />
+		<moon rise="01:06:23" set="11:24:29" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="8 Jun 2026" dayweekid="1" dayweek="Mo">
+		<sunrise time="04:47:37">
+			<tithi name="Astami" elapse="15.8" index="8"/>
+			<naksatra name="Satabhisa" elapse="92.4" />
+			<yoga name="Viskumba" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:11:37">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:57:11" />
+		<sunset time="21:06:44" />
+		<moon rise="01:19:43" set="12:39:24" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="9 Jun 2026" dayweekid="2" dayweek="Tu">
+		<sunrise time="04:47:13">
+			<tithi name="Navami" elapse="16.4" index="9"/>
+			<naksatra name="Purva-bhadra" elapse="90.1" />
+			<yoga name="Priti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:11:13">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="12:57:21" />
+		<sunset time="21:07:30" />
+		<moon rise="01:32:26" set="13:56:02" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="10 Jun 2026" dayweekid="3" dayweek="We">
+		<sunrise time="04:46:52">
+			<tithi name="Dasami" elapse="20.5" index="10"/>
+			<naksatra name="Uttara-bhadra" elapse="91.0" />
+			<yoga name="Saubhagya" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:10:52">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="12:57:32" />
+		<sunset time="21:08:13" />
+		<moon rise="01:45:46" set="15:16:01" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="11 Jun 2026" dayweekid="4" dayweek="Th">
+		<sunrise time="04:46:34">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="28.6" index="11"/>
+			<naksatra name="Revati" elapse="95.5" />
+			<yoga name="Sobana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:10:34">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="12:57:44" />
+		<sunset time="21:08:53" />
+		<moon rise="02:01:06" set="16:40:43" />
+		<festival name="Fasting for Parama Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="12 Jun 2026" dayweekid="5" dayweek="Fr">
+		<sunrise time="04:46:18">
+			<tithi name="Dvadasi" elapse="40.7" index="12"/>
+			<naksatra name="Bharani" elapse="3.6" />
+			<yoga name="Atiganda" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:10:18">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="12:57:55" />
+		<sunset time="21:09:32" />
+		<moon rise="02:20:26" set="18:10:07" />
+		<parana from="04:46" to="10:14" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="13 Jun 2026" dayweekid="6" dayweek="Sa">
+		<sunrise time="04:46:06">
+			<tithi name="Trayodasi" elapse="56.4" index="13"/>
+			<naksatra name="Krittika" elapse="14.8" />
+			<yoga name="Sukarma" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:10:06">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="12:58:07" />
+		<sunset time="21:10:07" />
+		<moon rise="02:46:51" set="19:40:46" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="14 Jun 2026" dayweekid="0" dayweek="Su">
+		<sunrise time="04:45:57">
+			<tithi name="Caturdasi" elapse="74.7" index="14"/>
+			<naksatra name="Rohini" elapse="28.4" />
+			<yoga name="Dhriti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:09:57">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="12:58:18" />
+		<sunset time="21:10:40" />
+		<moon rise="03:25:03" set="21:04:22" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="15 Jun 2026" dayweekid="1" dayweek="Mo">
+		<sunrise time="04:45:50">
+			<tithi name="Amavasya" elapse="94.2" index="15"/>
+			<naksatra name="Mrigasira" elapse="43.2" />
+			<yoga name="Sula" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:09:50">
+			<tithi name="Amavasya" />
+		</arunodaya>
+		<noon time="12:58:30" />
+		<sunset time="21:11:10" />
+		<moon rise="04:20:27" set="22:11:29" />
+		<sankranti rasi="Mithuna" time="10:07:05" />
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+	<masa name="Trivikrama Masa (Second half)" gyear="Gaurabda 540">
+	<day date="16 Jun 2026" dayweekid="2" dayweek="Tu">
+		<sunrise time="04:45:46">
+			<tithi name="Dvitiya" elapse="13.4" index="17"/>
+			<naksatra name="Ardra" elapse="57.6" />
+			<yoga name="Vriddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:09:46">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="12:58:42" />
+		<sunset time="21:11:38" />
+		<moon rise="05:34:44" set="22:59:17" />
+		<ksaya from="05:55" to="02:03" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="17 Jun 2026" dayweekid="3" dayweek="We">
+		<sunrise time="04:45:46">
+			<tithi name="Tritiya" elapse="30.8" index="18"/>
+			<naksatra name="Punarvasu" elapse="70.5" />
+			<yoga name="Dhruva" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:09:46">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="12:58:54" />
+		<sunset time="21:12:02" />
+		<moon rise="07:01:33" set="23:31:54" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="18 Jun 2026" dayweekid="4" dayweek="Th">
+		<sunrise time="04:45:48">
+			<tithi name="Caturthi" elapse="45.3" index="19"/>
+			<naksatra name="Pusyami" elapse="80.6" />
+			<yoga name="Vyagata" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:09:48">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="12:59:06" />
+		<sunset time="21:12:24" />
+		<moon rise="08:31:10" set="N/A" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="19 Jun 2026" dayweekid="5" dayweek="Fr">
+		<sunrise time="04:45:53">
+			<tithi name="Pancami" elapse="56.0" index="20"/>
+			<naksatra name="Aslesa" elapse="87.5" />
+			<yoga name="Harsana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:09:53">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="12:59:18" />
+		<sunset time="21:12:43" />
+		<moon rise="09:57:24" set="N/A" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="20 Jun 2026" dayweekid="6" dayweek="Sa">
+		<sunrise time="04:46:01">
+			<tithi name="Sasti" elapse="62.9" index="21"/>
+			<naksatra name="Magha" elapse="90.8" />
+			<yoga name="Vajra" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:10:01">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="12:59:30" />
+		<sunset time="21:13:00" />
+		<moon rise="11:18:36" set="00:12:04" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="21 Jun 2026" dayweekid="0" dayweek="Su">
+		<sunrise time="04:46:12">
+			<tithi name="Saptami" elapse="66.0" index="22"/>
+			<naksatra name="Purva-phalguni" elapse="90.7" />
+			<yoga name="Siddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:10:12">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="12:59:42" />
+		<sunset time="21:13:13" />
+		<moon rise="12:35:33" set="00:26:10" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="22 Jun 2026" dayweekid="1" dayweek="Mo">
+		<sunrise time="04:46:26">
+			<tithi name="Astami" elapse="65.7" index="23"/>
+			<naksatra name="Uttara-phalguni" elapse="87.6" />
+			<yoga name="Vyatipata" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:10:26">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:59:54" />
+		<sunset time="21:13:23" />
+		<moon rise="13:49:49" set="00:38:49" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="23 Jun 2026" dayweekid="2" dayweek="Tu">
+		<sunrise time="04:46:42">
+			<tithi name="Navami" elapse="62.6" index="24"/>
+			<naksatra name="Hasta" elapse="82.0" />
+			<yoga name="Variyana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:10:42">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="13:00:06" />
+		<sunset time="21:13:31" />
+		<moon rise="15:02:56" set="00:51:16" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="24 Jun 2026" dayweekid="3" dayweek="We">
+		<sunrise time="04:47:01">
+			<tithi name="Dasami" elapse="57.3" index="25"/>
+			<naksatra name="Citra" elapse="74.4" />
+			<yoga name="Parigha" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:11:01">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="13:00:18" />
+		<sunset time="21:13:35" />
+		<moon rise="16:15:57" set="01:04:39" />
+		<festival name="Sri Baladeva Vidyabhusana -- Disappearance" class="3"/>
+		<festival name="Ganga Puja" class="1"/>
+		<festival name="Srimati Gangamata Gosvamini -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="25 Jun 2026" dayweekid="4" dayweek="Th">
+		<sunrise time="04:47:24">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="50.5" index="26"/>
+			<naksatra name="Swati" elapse="65.4" />
+			<yoga name="Siva" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:11:24">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="13:00:30" />
+		<sunset time="21:13:37" />
+		<moon rise="17:28:59" set="01:20:18" />
+		<festival name="Fasting for Pandava Nirjala Ekadasi" class="-1"/>
+		<festival name="(Total fast, even from water, if you have broken Ekadasi)" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="26 Jun 2026" dayweekid="5" dayweek="Fr">
+		<sunrise time="04:47:48">
+			<tithi name="Dvadasi" elapse="42.5" index="27"/>
+			<naksatra name="Visakha" elapse="55.4" />
+			<yoga name="Siddha" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:11:48">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="13:00:42" />
+		<sunset time="21:13:36" />
+		<moon rise="18:40:43" set="01:39:54" />
+		<parana from="04:47" to="10:16" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="27 Jun 2026" dayweekid="6" dayweek="Sa">
+		<sunrise time="04:48:16">
+			<tithi name="Trayodasi" elapse="33.8" index="28"/>
+			<naksatra name="Anuradha" elapse="44.7" />
+			<yoga name="Sadhya" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:12:16">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="13:00:53" />
+		<sunset time="21:13:31" />
+		<moon rise="19:48:05" set="02:05:44" />
+		<festival name="Panihati Cida Dahi Utsava" class="1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="28 Jun 2026" dayweekid="0" dayweek="Su">
+		<sunrise time="04:48:46">
+			<tithi name="Caturdasi" elapse="24.8" index="29"/>
+			<naksatra name="Jyestha" elapse="33.8" />
+			<yoga name="Subha" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:12:46">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="13:01:05" />
+		<sunset time="21:13:24" />
+		<moon rise="20:47:02" set="02:40:41" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="29 Jun 2026" dayweekid="1" dayweek="Mo">
+		<sunrise time="04:49:19">
+			<tithi name="Purnima" elapse="15.9" index="30"/>
+			<naksatra name="Mula" elapse="22.9" />
+			<yoga name="Sukla" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:13:19">
+			<tithi name="Purnima" />
+		</arunodaya>
+		<noon time="13:01:16" />
+		<sunset time="21:13:14" />
+		<moon rise="21:34:31" set="03:27:13" />
+		<festival name="Snana Yatra" class="1"/>
+		<festival name="Sri Mukunda Datta -- Disappearance" class="3"/>
+		<festival name="Sri Sridhara Pandita -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+	<masa name="Vamana Masa" gyear="Gaurabda 540">
+	<day date="30 Jun 2026" dayweekid="2" dayweek="Tu">
+		<sunrise time="04:49:54">
+			<tithi name="Pratipat" elapse="7.1" index="1"/>
+			<naksatra name="Purva-asadha" elapse="12.1" />
+			<yoga name="Brahma" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:13:54">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="13:01:27" />
+		<sunset time="21:13:00" />
+		<moon rise="22:10:28" set="04:25:40" />
+		<festival name="Sri Syamananda Prabhu -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+</result>
+</xml>

@@ -1,0 +1,570 @@
+<xml>
+	<request name="Calendar" version="GCal 11j3">
+		<arg name="longitude" val="+30.52340" />
+		<arg name="latitude" val="+50.45010" />
+		<arg name="timezone" val="+2.00000" />
+		<arg name="startdate" val="1 May 2024" />
+		<arg name="daycount" val="31" />
+		<arg name="dst" val="x810590288" />
+	</request>
+	<result name="Calendar">
+	<masa name="Madhusudana Masa" gyear="Gaurabda 538">
+	<day date="1 May 2024" dayweekid="3" dayweek="We">
+		<sunrise time="05:32:25">
+			<tithi name="Astami" elapse="9.9" index="8"/>
+			<naksatra name="Sravana" elapse="16.7" />
+			<yoga name="Subha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:56:25">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:55:28" />
+		<sunset time="20:18:32" />
+		<moon rise="03:10:21" set="11:06:35" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="2 May 2024" dayweekid="4" dayweek="Th">
+		<sunrise time="05:30:37">
+			<tithi name="Navami" elapse="17.9" index="9"/>
+			<naksatra name="Dhanista" elapse="21.1" />
+			<yoga name="Sukla" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:54:37">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="12:55:22" />
+		<sunset time="20:20:06" />
+		<moon rise="03:33:55" set="12:34:01" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="3 May 2024" dayweekid="5" dayweek="Fr">
+		<sunrise time="05:28:52">
+			<tithi name="Dasami" elapse="28.0" index="10"/>
+			<naksatra name="Satabhisa" elapse="27.5" />
+			<yoga name="Brahma" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:52:52">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="12:55:15" />
+		<sunset time="20:21:39" />
+		<moon rise="03:52:00" set="14:01:25" />
+		<festival name="Srila Vrndavana Dasa Thakura -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="4 May 2024" dayweekid="6" dayweek="Sa">
+		<sunrise time="05:27:08">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="39.9" index="11"/>
+			<naksatra name="Purva-bhadra" elapse="35.5" />
+			<yoga name="Indra" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:51:08">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="12:55:10" />
+		<sunset time="20:23:12" />
+		<moon rise="04:07:06" set="15:28:04" />
+		<festival name="Fasting for Varuthini Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="5 May 2024" dayweekid="0" dayweek="Su">
+		<sunrise time="05:25:25">
+			<tithi name="Dvadasi" elapse="53.3" index="12"/>
+			<naksatra name="Uttara-bhadra" elapse="44.7" />
+			<yoga name="Viskumba" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:49:25">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="12:55:05" />
+		<sunset time="20:24:44" />
+		<moon rise="04:21:04" set="16:54:46" />
+		<parana from="05:25" to="10:25" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="6 May 2024" dayweekid="1" dayweek="Mo">
+		<sunrise time="05:23:44">
+			<tithi name="Trayodasi" elapse="67.5" index="13"/>
+			<naksatra name="Revati" elapse="54.8" />
+			<yoga name="Priti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:47:44">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="12:55:00" />
+		<sunset time="20:26:16" />
+		<moon rise="04:35:22" set="18:22:38" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="7 May 2024" dayweekid="2" dayweek="Tu">
+		<sunrise time="05:22:04">
+			<tithi name="Caturdasi" elapse="81.7" index="14"/>
+			<naksatra name="Asvini" elapse="64.8" />
+			<yoga name="Ayusmana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:46:04">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="12:54:56" />
+		<sunset time="20:27:48" />
+		<moon rise="04:51:35" set="19:52:08" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="8 May 2024" dayweekid="3" dayweek="We">
+		<sunrise time="05:20:26">
+			<tithi name="Amavasya" elapse="95.0" index="15"/>
+			<naksatra name="Bharani" elapse="74.1" />
+			<yoga name="Saubhagya" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:44:26">
+			<tithi name="Amavasya" />
+		</arunodaya>
+		<noon time="12:54:53" />
+		<sunset time="20:29:19" />
+		<moon rise="05:11:41" set="21:21:47" />
+		<festival name="Sri Gadadhara Pandita -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="9 May 2024" dayweekid="4" dayweek="Th">
+		<sunrise time="05:18:50">
+			<tithi name="Dvitiya" elapse="6.6" index="17"/>
+			<naksatra name="Krittika" elapse="81.7" />
+			<yoga name="Sobana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:42:50">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="12:54:50" />
+		<sunset time="20:30:49" />
+		<moon rise="05:38:24" set="22:47:05" />
+		<ksaya from="06:23" to="03:53" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="10 May 2024" dayweekid="5" dayweek="Fr">
+		<sunrise time="05:17:15">
+			<tithi name="Tritiya" elapse="15.5" index="18"/>
+			<naksatra name="Rohini" elapse="87.0" />
+			<yoga name="Atiganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:41:15">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="12:54:47" />
+		<sunset time="20:32:19" />
+		<moon rise="06:15:14" set="N/A" />
+		<festival name="Aksaya Trtiya. Candana Yatra starts. (Continues for 21 days)" class="1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="11 May 2024" dayweekid="6" dayweek="Sa">
+		<sunrise time="05:15:42">
+			<tithi name="Caturthi" elapse="21.3" index="19"/>
+			<naksatra name="Mrigasira" elapse="89.4" />
+			<yoga name="Sukarma" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:39:42">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="12:54:45" />
+		<sunset time="20:33:48" />
+		<moon rise="07:05:17" set="00:01:16" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="12 May 2024" dayweekid="0" dayweek="Su">
+		<sunrise time="05:14:11">
+			<tithi name="Pancami" elapse="23.8" index="20"/>
+			<naksatra name="Ardra" elapse="88.9" />
+			<yoga name="Dhriti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:38:11">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="12:54:44" />
+		<sunset time="20:35:17" />
+		<moon rise="08:08:27" set="00:59:10" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="13 May 2024" dayweekid="1" dayweek="Mo">
+		<sunrise time="05:12:42">
+			<tithi name="Sasti" elapse="22.9" index="21"/>
+			<naksatra name="Punarvasu" elapse="85.4" />
+			<yoga name="Ganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:36:42">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="12:54:43" />
+		<sunset time="20:36:44" />
+		<moon rise="09:20:16" set="01:40:49" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="14 May 2024" dayweekid="2" dayweek="Tu">
+		<sunrise time="05:11:15">
+			<tithi name="Saptami" elapse="19.1" index="22"/>
+			<naksatra name="Pusyami" elapse="79.2" />
+			<yoga name="Vriddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:35:15">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="12:54:43" />
+		<sunset time="20:38:11" />
+		<moon rise="10:34:54" set="02:10:01" />
+		<festival name="Jahnu Saptami" class="5"/>
+		<festival name="Tulasi Jala Dan ends." class="5"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="15 May 2024" dayweekid="3" dayweek="We">
+		<sunrise time="05:09:50">
+			<tithi name="Astami" elapse="12.8" index="23"/>
+			<naksatra name="Aslesa" elapse="70.7" />
+			<yoga name="Vriddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:33:50">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:54:44" />
+		<sunset time="20:39:37" />
+		<moon rise="11:48:31" set="02:30:58" />
+		<sankranti rasi="Vrsabha" time="15:14:26" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="16 May 2024" dayweekid="4" dayweek="Th">
+		<sunrise time="05:08:26">
+			<tithi name="Navami" elapse="4.6" index="24"/>
+			<naksatra name="Magha" elapse="60.6" />
+			<yoga name="Dhruva" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:32:26">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:54:44" />
+		<sunset time="20:41:02" />
+		<moon rise="12:59:47" set="02:46:47" />
+		<festival name="Srimati Sita Devi (consort of Lord Sri Rama) -- Appearance" class="1"/>
+		<festival name="Sri Madhu Pandita -- Disappearance" class="3"/>
+		<festival name="Srimati Jahnava Devi -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="17 May 2024" dayweekid="5" dayweek="Fr">
+		<sunrise time="05:07:05">
+			<tithi name="Navami" elapse="95.4" index="24"/>
+			<naksatra name="Purva-phalguni" elapse="49.5" />
+			<yoga name="Vyagata" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:31:05">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="12:54:46" />
+		<sunset time="20:42:27" />
+		<moon rise="14:09:01" set="02:59:33" />
+		<vriddhi sd="yes" />
+	</day>
+
+	<day date="18 May 2024" dayweekid="6" dayweek="Sa">
+		<sunrise time="05:05:46">
+			<tithi name="Dasami" elapse="85.6" index="25"/>
+			<naksatra name="Uttara-phalguni" elapse="37.9" />
+			<yoga name="Harsana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:29:46">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="12:54:48" />
+		<sunset time="20:43:50" />
+		<moon rise="15:17:18" set="03:10:39" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="19 May 2024" dayweekid="0" dayweek="Su">
+		<sunrise time="05:04:29">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="76.1" index="26"/>
+			<naksatra name="Hasta" elapse="26.6" />
+			<yoga name="Vajra" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:28:29">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="12:54:50" />
+		<sunset time="20:45:12" />
+		<moon rise="16:26:05" set="03:21:09" />
+		<festival name="Fasting for Mohini Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="20 May 2024" dayweekid="1" dayweek="Mo">
+		<sunrise time="05:03:14">
+			<tithi name="Dvadasi" elapse="67.5" index="27"/>
+			<naksatra name="Citra" elapse="16.0" />
+			<yoga name="Siddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:27:14">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="12:54:53" />
+		<sunset time="20:46:33" />
+		<moon rise="17:36:44" set="03:31:59" />
+		<parana from="05:03" to="10:17" />
+		<festival name="Rukmini Dvadasi" class="1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="21 May 2024" dayweekid="2" dayweek="Tu">
+		<sunrise time="05:02:02">
+			<tithi name="Trayodasi" elapse="60.2" index="28"/>
+			<naksatra name="Swati" elapse="6.7" />
+			<yoga name="Vyatipata" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:26:02">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="12:54:57" />
+		<sunset time="20:47:52" />
+		<moon rise="18:50:21" set="03:44:09" />
+		<festival name="Sri Jayananda Prabhu -- Disappearance" class="4"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="22 May 2024" dayweekid="3" dayweek="We">
+		<sunrise time="05:00:52">
+			<tithi name="Caturdasi" elapse="54.7" index="29"/>
+			<naksatra name="Swati" elapse="98.9" />
+			<yoga name="Variyana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:24:52">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="12:55:01" />
+		<sunset time="20:49:11" />
+		<moon rise="20:07:09" set="03:58:59" />
+		<festival name="Nrsimha Caturdasi: Appearance of Lord Nrsimhadeva" class="0"/>
+		<festival name="(Fast till dusk)" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="23 May 2024" dayweekid="4" dayweek="Th">
+		<sunrise time="04:59:44">
+			<tithi name="Purnima" elapse="51.2" index="30"/>
+			<naksatra name="Visakha" elapse="93.0" />
+			<yoga name="Parigha" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:23:44">
+			<tithi name="Purnima" />
+		</arunodaya>
+		<noon time="12:55:06" />
+		<sunset time="20:50:28" />
+		<moon rise="21:25:28" set="04:18:31" />
+		<festival name="Krsna Phula Dola, Salila Vihara" class="1"/>
+		<festival name="Sri Paramesvari Dasa Thakura -- Disappearance" class="3"/>
+		<festival name="Sri Sri Radha-Ramana Devaji -- Appearance" class="1"/>
+		<festival name="Sri Madhavendra Puri -- Appearance" class="3"/>
+		<festival name="Sri Srinivasa Acarya -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+	<masa name="Trivikrama Masa" gyear="Gaurabda 538">
+	<day date="24 May 2024" dayweekid="5" dayweek="Fr">
+		<sunrise time="04:58:38">
+			<tithi name="Pratipat" elapse="49.9" index="1"/>
+			<naksatra name="Anuradha" elapse="89.0" />
+			<yoga name="Siva" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:22:38">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="12:55:11" />
+		<sunset time="20:51:43" />
+		<moon rise="22:40:43" set="04:45:47" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="25 May 2024" dayweekid="6" dayweek="Sa">
+		<sunrise time="04:57:35">
+			<tithi name="Dvitiya" elapse="50.7" index="2"/>
+			<naksatra name="Jyestha" elapse="87.0" />
+			<yoga name="Siddha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:21:35">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="12:55:16" />
+		<sunset time="20:52:57" />
+		<moon rise="23:46:07" set="05:25:06" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="26 May 2024" dayweekid="0" dayweek="Su">
+		<sunrise time="04:56:34">
+			<tithi name="Tritiya" elapse="53.5" index="3"/>
+			<naksatra name="Mula" elapse="86.7" />
+			<yoga name="Sadhya" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:20:34">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="12:55:22" />
+		<sunset time="20:54:10" />
+		<moon rise="N/A" set="06:20:29" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="27 May 2024" dayweekid="1" dayweek="Mo">
+		<sunrise time="04:55:36">
+			<tithi name="Caturthi" elapse="58.1" index="4"/>
+			<naksatra name="Purva-asadha" elapse="88.0" />
+			<yoga name="Sukla" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:19:36">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="12:55:29" />
+		<sunset time="20:55:21" />
+		<moon rise="00:36:46" set="07:32:02" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="28 May 2024" dayweekid="2" dayweek="Tu">
+		<sunrise time="04:54:40">
+			<tithi name="Pancami" elapse="64.2" index="5"/>
+			<naksatra name="Uttara-asadha" elapse="90.7" />
+			<yoga name="Brahma" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:18:40">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="12:55:35" />
+		<sunset time="20:56:31" />
+		<moon rise="01:13:06" set="08:54:26" />
+		<festival name="Sri Ramananda Raya -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="29 May 2024" dayweekid="3" dayweek="We">
+		<sunrise time="04:53:47">
+			<tithi name="Sasti" elapse="71.6" index="6"/>
+			<naksatra name="Sravana" elapse="94.5" />
+			<yoga name="Indra" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:17:47">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="12:55:43" />
+		<sunset time="20:57:38" />
+		<moon rise="01:38:56" set="10:20:52" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="30 May 2024" dayweekid="4" dayweek="Th">
+		<sunrise time="04:52:56">
+			<tithi name="Saptami" elapse="80.0" index="7"/>
+			<naksatra name="Dhanista" elapse="99.3" />
+			<yoga name="Vaidhriti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:16:56">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="12:55:50" />
+		<sunset time="20:58:44" />
+		<moon rise="01:58:13" set="11:47:05" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="31 May 2024" dayweekid="5" dayweek="Fr">
+		<sunrise time="04:52:09">
+			<tithi name="Astami" elapse="89.4" index="8"/>
+			<naksatra name="Purva-bhadra" elapse="5.0" />
+			<yoga name="Viskumba" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:16:09">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:55:58" />
+		<sunset time="20:59:48" />
+		<moon rise="02:13:47" set="13:11:50" />
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+</result>
+</xml>

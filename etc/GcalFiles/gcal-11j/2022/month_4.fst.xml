@@ -1,0 +1,547 @@
+<xml>
+	<request name="Calendar" version="GCal 11j3">
+		<arg name="longitude" val="+30.52340" />
+		<arg name="latitude" val="+50.45010" />
+		<arg name="timezone" val="+2.00000" />
+		<arg name="startdate" val="1 Apr 2022" />
+		<arg name="daycount" val="30" />
+		<arg name="dst" val="x810590288" />
+	</request>
+	<result name="Calendar">
+	<masa name="Visnu Masa" gyear="Gaurabda 536">
+	<day date="1 Apr 2022" dayweekid="5" dayweek="Fr">
+		<sunrise time="06:34:41">
+			<tithi name="Amavasya" elapse="88.0" index="15"/>
+			<naksatra name="Uttara-bhadra" elapse="93.4" />
+			<yoga name="Brahma" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:58:41">
+			<tithi name="Amavasya" />
+		</arunodaya>
+		<noon time="13:02:18" />
+		<sunset time="19:29:56" />
+		<moon rise="07:03:42" set="19:39:40" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="2 Apr 2022" dayweekid="6" dayweek="Sa">
+		<sunrise time="06:32:29">
+			<tithi name="Pratipat" elapse="87.8" index="16"/>
+			<naksatra name="Revati" elapse="90.7" />
+			<yoga name="Vaidhriti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:56:29">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="13:02:01" />
+		<sunset time="19:31:32" />
+		<moon rise="07:18:10" set="20:53:49" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="3 Apr 2022" dayweekid="0" dayweek="Su">
+		<sunrise time="06:30:18">
+			<tithi name="Dvitiya" elapse="85.3" index="17"/>
+			<naksatra name="Asvini" elapse="85.8" />
+			<yoga name="Viskumba" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:54:18">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="13:01:43" />
+		<sunset time="19:33:09" />
+		<moon rise="07:33:40" set="22:07:13" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="4 Apr 2022" dayweekid="1" dayweek="Mo">
+		<sunrise time="06:28:07">
+			<tithi name="Tritiya" elapse="80.4" index="18"/>
+			<naksatra name="Bharani" elapse="78.8" />
+			<yoga name="Priti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:52:07">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="13:01:26" />
+		<sunset time="19:34:45" />
+		<moon rise="07:51:28" set="23:19:47" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="5 Apr 2022" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:25:57">
+			<tithi name="Caturthi" elapse="73.6" index="19"/>
+			<naksatra name="Krittika" elapse="70.1" />
+			<yoga name="Ayusmana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:49:57">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="13:01:09" />
+		<sunset time="19:36:21" />
+		<moon rise="08:13:04" set="N/A" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="6 Apr 2022" dayweekid="3" dayweek="We">
+		<sunrise time="06:23:47">
+			<tithi name="Pancami" elapse="65.3" index="20"/>
+			<naksatra name="Rohini" elapse="59.9" />
+			<yoga name="Saubhagya" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:47:47">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="13:00:52" />
+		<sunset time="19:37:57" />
+		<moon rise="08:40:25" set="00:30:18" />
+		<festival name="Sri Ramanujacarya -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="7 Apr 2022" dayweekid="4" dayweek="Th">
+		<sunrise time="06:21:37">
+			<tithi name="Sasti" elapse="55.9" index="21"/>
+			<naksatra name="Mrigasira" elapse="48.8" />
+			<yoga name="Saubhagya" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:45:37">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="13:00:35" />
+		<sunset time="19:39:33" />
+		<moon rise="09:15:43" set="01:36:30" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="8 Apr 2022" dayweekid="5" dayweek="Fr">
+		<sunrise time="06:19:28">
+			<tithi name="Saptami" elapse="46.1" index="22"/>
+			<naksatra name="Ardra" elapse="37.4" />
+			<yoga name="Sobana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:43:28">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="13:00:18" />
+		<sunset time="19:41:09" />
+		<moon rise="10:00:50" set="02:35:23" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="9 Apr 2022" dayweekid="6" dayweek="Sa">
+		<sunrise time="06:17:19">
+			<tithi name="Astami" elapse="36.6" index="23"/>
+			<naksatra name="Punarvasu" elapse="26.2" />
+			<yoga name="Atiganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:41:19">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="13:00:02" />
+		<sunset time="19:42:45" />
+		<moon rise="10:56:17" set="03:24:41" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="10 Apr 2022" dayweekid="0" dayweek="Su">
+		<sunrise time="06:15:11">
+			<tithi name="Navami" elapse="28.1" index="24"/>
+			<naksatra name="Pusyami" elapse="15.9" />
+			<yoga name="Sukarma" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:39:11">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="12:59:46" />
+		<sunset time="19:44:20" />
+		<moon rise="12:00:35" set="04:03:56" />
+		<festival name="Rama Navami: Appearance of Lord Sri Ramacandra" class="0"/>
+		<festival name="(Fast till sunset)" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="11 Apr 2022" dayweekid="1" dayweek="Mo">
+		<sunrise time="06:13:04">
+			<tithi name="Dasami" elapse="21.2" index="25"/>
+			<naksatra name="Aslesa" elapse="7.1" />
+			<yoga name="Dhriti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:37:04">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="12:59:30" />
+		<sunset time="19:45:56" />
+		<moon rise="13:10:59" set="04:34:29" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="12 Apr 2022" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:10:56">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="16.7" index="26"/>
+			<naksatra name="Magha" elapse="0.3" />
+			<yoga name="Sula" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:34:56">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="12:59:14" />
+		<sunset time="19:47:32" />
+		<moon rise="14:24:50" set="04:58:28" />
+		<festival name="Fasting for Kamada Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="13 Apr 2022" dayweekid="3" dayweek="We">
+		<sunrise time="06:08:50">
+			<tithi name="Dvadasi" elapse="14.8" index="27"/>
+			<naksatra name="Magha" elapse="96.0" />
+			<yoga name="Ganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:32:50">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="12:58:59" />
+		<sunset time="19:49:08" />
+		<moon rise="15:40:33" set="05:17:57" />
+		<parana from="08:31" to="10:42" />
+		<festival name="Damanakaropana Dvadasi" class="1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="14 Apr 2022" dayweekid="4" dayweek="Th">
+		<sunrise time="06:06:44">
+			<tithi name="Trayodasi" elapse="16.0" index="28"/>
+			<naksatra name="Purva-phalguni" elapse="94.4" />
+			<yoga name="Vriddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:30:44">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="12:58:44" />
+		<sunset time="19:50:44" />
+		<moon rise="16:57:42" set="05:34:40" />
+		<festival name="Tulasi Jala Dan begins." class="5"/>
+		<sankranti rasi="Mesa" time="06:03:33" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="15 Apr 2022" dayweekid="5" dayweek="Fr">
+		<sunrise time="06:04:39">
+			<tithi name="Caturdasi" elapse="20.3" index="29"/>
+			<naksatra name="Uttara-phalguni" elapse="95.6" />
+			<yoga name="Vyagata" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:28:39">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="12:58:30" />
+		<sunset time="19:52:20" />
+		<moon rise="18:16:45" set="05:50:00" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="16 Apr 2022" dayweekid="6" dayweek="Sa">
+		<sunrise time="06:02:35">
+			<tithi name="Purnima" elapse="27.5" index="30"/>
+			<naksatra name="Hasta" elapse="99.4" />
+			<yoga name="Harsana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:26:35">
+			<tithi name="Purnima" />
+		</arunodaya>
+		<noon time="12:58:15" />
+		<sunset time="19:53:56" />
+		<moon rise="19:38:33" set="06:05:16" />
+		<festival name="Sri Balarama Rasayatra" class="1"/>
+		<festival name="Sri Krsna Vasanta Rasa" class="1"/>
+		<festival name="Sri Vamsivadana Thakura -- Appearance" class="3"/>
+		<festival name="Sri Syamananda Prabhu -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+	<masa name="Madhusudana Masa" gyear="Gaurabda 536">
+	<day date="17 Apr 2022" dayweekid="0" dayweek="Su">
+		<sunrise time="06:00:31">
+			<tithi name="Pratipat" elapse="37.1" index="1"/>
+			<naksatra name="Swati" elapse="5.4" />
+			<yoga name="Vajra" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:24:31">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="12:58:01" />
+		<sunset time="19:55:32" />
+		<moon rise="21:03:47" set="06:21:48" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="18 Apr 2022" dayweekid="1" dayweek="Mo">
+		<sunrise time="05:58:28">
+			<tithi name="Dvitiya" elapse="48.6" index="2"/>
+			<naksatra name="Visakha" elapse="13.1" />
+			<yoga name="Siddhi" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:22:28">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="12:57:48" />
+		<sunset time="19:57:07" />
+		<moon rise="22:31:56" set="06:41:20" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="19 Apr 2022" dayweekid="2" dayweek="Tu">
+		<sunrise time="05:56:26">
+			<tithi name="Tritiya" elapse="61.2" index="3"/>
+			<naksatra name="Anuradha" elapse="21.7" />
+			<yoga name="Vyatipata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:20:26">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="12:57:35" />
+		<sunset time="19:58:43" />
+		<moon rise="N/A" set="07:06:21" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="20 Apr 2022" dayweekid="3" dayweek="We">
+		<sunrise time="05:54:25">
+			<tithi name="Caturthi" elapse="74.1" index="4"/>
+			<naksatra name="Jyestha" elapse="30.6" />
+			<yoga name="Variyana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:18:25">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="12:57:22" />
+		<sunset time="20:00:19" />
+		<moon rise="N/A" set="07:40:27" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="21 Apr 2022" dayweekid="4" dayweek="Th">
+		<sunrise time="05:52:25">
+			<tithi name="Pancami" elapse="86.6" index="5"/>
+			<naksatra name="Mula" elapse="39.2" />
+			<yoga name="Parigha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:16:25">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="12:57:10" />
+		<sunset time="20:01:55" />
+		<moon rise="01:21:28" set="08:27:56" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="22 Apr 2022" dayweekid="5" dayweek="Fr">
+		<sunrise time="05:50:26">
+			<tithi name="Sasti" elapse="98.1" index="6"/>
+			<naksatra name="Purva-asadha" elapse="46.9" />
+			<yoga name="Siddha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:14:26">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="12:56:58" />
+		<sunset time="20:03:30" />
+		<moon rise="02:29:03" set="09:31:12" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="23 Apr 2022" dayweekid="6" dayweek="Sa">
+		<sunrise time="05:48:27">
+			<tithi name="Astami" elapse="8.3" index="8"/>
+			<naksatra name="Uttara-asadha" elapse="53.4" />
+			<yoga name="Sadhya" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:12:27">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:56:46" />
+		<sunset time="20:05:06" />
+		<moon rise="03:19:29" set="10:47:28" />
+		<festival name="Sri Abhirama Thakura -- Disappearance" class="3"/>
+		<ksaya from="06:14" to="03:59" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="24 Apr 2022" dayweekid="0" dayweek="Su">
+		<sunrise time="05:46:30">
+			<tithi name="Navami" elapse="16.8" index="9"/>
+			<naksatra name="Sravana" elapse="58.3" />
+			<yoga name="Subha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:10:30">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="12:56:35" />
+		<sunset time="20:06:41" />
+		<moon rise="03:55:18" set="12:09:55" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="25 Apr 2022" dayweekid="1" dayweek="Mo">
+		<sunrise time="05:44:34">
+			<tithi name="Dasami" elapse="23.6" index="10"/>
+			<naksatra name="Dhanista" elapse="61.7" />
+			<yoga name="Sukla" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:08:34">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="12:56:25" />
+		<sunset time="20:08:16" />
+		<moon rise="04:21:05" set="13:32:34" />
+		<festival name="Srila Vrndavana Dasa Thakura -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="26 Apr 2022" dayweekid="2" dayweek="Tu">
+		<sunrise time="05:42:38">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="28.4" index="11"/>
+			<naksatra name="Satabhisa" elapse="63.3" />
+			<yoga name="Brahma" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:06:38">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="12:56:15" />
+		<sunset time="20:09:51" />
+		<moon rise="04:40:43" set="14:52:38" />
+		<festival name="Fasting for Varuthini Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="27 Apr 2022" dayweekid="3" dayweek="We">
+		<sunrise time="05:40:44">
+			<tithi name="Dvadasi" elapse="31.3" index="12"/>
+			<naksatra name="Purva-bhadra" elapse="63.3" />
+			<yoga name="Indra" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:04:44">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="12:56:05" />
+		<sunset time="20:11:26" />
+		<moon rise="04:56:51" set="16:09:40" />
+		<parana from="05:40" to="10:30" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="28 Apr 2022" dayweekid="4" dayweek="Th">
+		<sunrise time="05:38:51">
+			<tithi name="Trayodasi" elapse="32.3" index="13"/>
+			<naksatra name="Uttara-bhadra" elapse="61.4" />
+			<yoga name="Vaidhriti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:02:51">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="12:55:56" />
+		<sunset time="20:13:01" />
+		<moon rise="05:11:13" set="17:24:25" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="29 Apr 2022" dayweekid="5" dayweek="Fr">
+		<sunrise time="05:37:00">
+			<tithi name="Caturdasi" elapse="31.3" index="14"/>
+			<naksatra name="Revati" elapse="57.9" />
+			<yoga name="Viskumba" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="04:01:00">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="12:55:48" />
+		<sunset time="20:14:36" />
+		<moon rise="05:25:08" set="18:37:54" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="30 Apr 2022" dayweekid="6" dayweek="Sa">
+		<sunrise time="05:35:09">
+			<tithi name="Amavasya" elapse="28.6" index="15"/>
+			<naksatra name="Asvini" elapse="52.6" />
+			<yoga name="Priti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="03:59:09">
+			<tithi name="Amavasya" />
+		</arunodaya>
+		<noon time="12:55:40" />
+		<sunset time="20:16:10" />
+		<moon rise="05:39:44" set="19:50:56" />
+		<festival name="Sri Gadadhara Pandita -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+</result>
+</xml>
