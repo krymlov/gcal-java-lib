@@ -6,13 +6,12 @@
 package org.gaurabda;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.io.FilenameUtils;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.RepetitionInfo;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Random;
+import java.time.YearMonth;
 
 /**
  * Parameters:
@@ -21,17 +20,19 @@ import java.util.Random;
  * @version 1.0, 2021-02
  */
 public class GCalKyivTest extends AGaurabdaTest {
-    private static final Random random = new Random();
 
-    @RepeatedTest(5)
+    @RepeatedTest(10)
     void testMonths(RepetitionInfo info) throws IOException {
-        int i = info.getCurrentRepetition();
-        String query = makeGCalQuery(2020 + i, i, 120);
-		String gcalXml = GCalManager.nativeGCal4Query(query);
-        System.out.println(query + " => " + gcalXml.length() + " bytes");
-        //String normalizedFilename = FilenameUtils.normalize(query + ".xml");
-        //normalizedFilename = normalizedFilename.replace(':', '_');
-        //FileUtils.writeStringToFile(new File(normalizedFilename), gcalXml);
+        int year = 2018 + info.getCurrentRepetition();
+        for (int month = 1; month <= 12; month++) {
+            YearMonth ym = YearMonth.of(year, month);
+            String query = makeGCalQuery(ym.getYear(),
+                    ym.getMonthValue(), ym.lengthOfMonth());
+            String gcalXml = GCalManager.nativeGCal4Query(query);
+            System.out.println(query + " => " + gcalXml.length() + " bytes");
+            File file = new File("target/" + year, "month_" + month + ".fst.xml");
+            FileUtils.writeStringToFile(file, gcalXml);
+        }
     }
 
     /**
@@ -50,7 +51,7 @@ public class GCalKyivTest extends AGaurabdaTest {
     String makeGCalQuery(int year, int month, int countOfDays) {
         final StringBuilder sb = new StringBuilder(255);
         //sb.append("q=calendar&lc=Kyiv&la=50N27&lo=30E31");
-        sb.append("q=calendar&lc=Kyiv&la=50.45&lo=30E31");
+        sb.append("q=calendar&lc=Kyiv&la=50.4501&lo=30.5234");
 
         sb.append("&ty=").append(year).append("&tm=").append(month);
         sb.append("&td=").append(1).append("&tc=").append(countOfDays);

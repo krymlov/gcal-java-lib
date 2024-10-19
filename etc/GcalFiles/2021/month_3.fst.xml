@@ -1,0 +1,567 @@
+<xml>
+	<request name="Calendar" version="GCal 11">
+		<arg name="longitude" val="+30.52340" />
+		<arg name="latitude" val="+50.45010" />
+		<arg name="timezone" val="+2.00000" />
+		<arg name="startdate" val="1 Mar 2021" />
+		<arg name="daycount" val="31" />
+		<arg name="dst" val="x810590288" />
+	</request>
+	<result name="Calendar">
+	<masa name="Govinda Masa" gyear="Gaurabda 534">
+	<day date="1 Mar 2021" dayweekid="1" dayweek="Mo">
+		<sunrise time="06:41:38">
+			<tithi name="Tritiya" elapse="7.4" index="3"/>
+			<naksatra name="Hasta" elapse="11.7" />
+			<yoga name="Sula" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:05:38">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="12:10:37" />
+		<sunset time="17:39:36" />
+		<moon rise="20:29:44" set="07:55:27" />
+		<ksaya from="07:51" to="05:07" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="2 Mar 2021" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:39:33">
+			<tithi name="Caturthi" elapse="20.5" index="4"/>
+			<naksatra name="Citra" elapse="21.0" />
+			<yoga name="Vriddhi" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:03:33">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="12:10:26" />
+		<sunset time="17:41:18" />
+		<moon rise="21:53:32" set="08:14:38" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="3 Mar 2021" dayweekid="3" dayweek="We">
+		<sunrise time="06:37:27">
+			<tithi name="Pancami" elapse="33.3" index="5"/>
+			<naksatra name="Swati" elapse="30.0" />
+			<yoga name="Dhruva" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:01:27">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="12:10:13" />
+		<sunset time="17:42:59" />
+		<moon rise="23:17:55" set="08:34:51" />
+		<festival name="Sri Purusottama Das Thakura -- Disappearance" class="3"/>
+		<festival name="Srila Bhaktisiddhanta Sarasvati Thakura -- Appearance" class="2"/>
+		<festival name="(Fast till noon)" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="4 Mar 2021" dayweekid="4" dayweek="Th">
+		<sunrise time="06:35:21">
+			<tithi name="Sasti" elapse="45.0" index="6"/>
+			<naksatra name="Visakha" elapse="38.0" />
+			<yoga name="Vyagata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:59:21">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="12:10:00" />
+		<sunset time="17:44:40" />
+		<moon rise="N/A" set="08:57:57" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="5 Mar 2021" dayweekid="5" dayweek="Fr">
+		<sunrise time="06:33:14">
+			<tithi name="Saptami" elapse="55.1" index="7"/>
+			<naksatra name="Anuradha" elapse="44.6" />
+			<yoga name="Harsana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:57:14">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="12:09:47" />
+		<sunset time="17:46:21" />
+		<moon rise="00:41:58" set="09:26:10" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="6 Mar 2021" dayweekid="6" dayweek="Sa">
+		<sunrise time="06:31:06">
+			<tithi name="Astami" elapse="63.4" index="8"/>
+			<naksatra name="Jyestha" elapse="49.6" />
+			<yoga name="Vajra" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:55:06">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:09:34" />
+		<sunset time="17:48:01" />
+		<moon rise="02:03:04" set="10:02:19" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="7 Mar 2021" dayweekid="0" dayweek="Su">
+		<sunrise time="06:28:58">
+			<tithi name="Navami" elapse="69.9" index="9"/>
+			<naksatra name="Mula" elapse="53.0" />
+			<yoga name="Siddhi" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:52:58">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="12:09:19" />
+		<sunset time="17:49:41" />
+		<moon rise="03:16:48" set="10:49:10" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="8 Mar 2021" dayweekid="1" dayweek="Mo">
+		<sunrise time="06:26:49">
+			<tithi name="Dasami" elapse="74.7" index="10"/>
+			<naksatra name="Purva-asadha" elapse="54.8" />
+			<yoga name="Vyatipata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:50:49">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="12:09:05" />
+		<sunset time="17:51:21" />
+		<moon rise="04:18:48" set="11:47:50" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="9 Mar 2021" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:24:40">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="78.0" index="11"/>
+			<naksatra name="Uttara-asadha" elapse="55.2" />
+			<yoga name="Variyana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:48:40">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="12:08:50" />
+		<sunset time="17:53:00" />
+		<moon rise="05:07:21" set="12:56:17" />
+		<festival name="Fasting for Vijaya Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="10 Mar 2021" dayweekid="3" dayweek="We">
+		<sunrise time="06:22:30">
+			<tithi name="Dvadasi" elapse="79.7" index="12"/>
+			<naksatra name="Sravana" elapse="54.2" />
+			<yoga name="Parigha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:46:30">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="12:08:35" />
+		<sunset time="17:54:40" />
+		<moon rise="05:43:59" set="14:10:05" />
+		<parana from="06:22" to="10:13" />
+		<festival name="Sri Isvara Puri -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="11 Mar 2021" dayweekid="4" dayweek="Th">
+		<sunrise time="06:20:20">
+			<tithi name="Trayodasi" elapse="79.9" index="13"/>
+			<naksatra name="Dhanista" elapse="51.9" />
+			<yoga name="Siddha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:44:20">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="12:08:20" />
+		<sunset time="17:56:19" />
+		<moon rise="06:11:45" set="15:25:04" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="12 Mar 2021" dayweekid="5" dayweek="Fr">
+		<sunrise time="06:18:10">
+			<tithi name="Caturdasi" elapse="78.5" index="14"/>
+			<naksatra name="Satabhisa" elapse="48.1" />
+			<yoga name="Sadhya" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:42:10">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="12:08:04" />
+		<sunset time="17:57:57" />
+		<moon rise="06:33:36" set="16:38:43" />
+		<festival name="Siva Ratri" class="1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="13 Mar 2021" dayweekid="6" dayweek="Sa">
+		<sunrise time="06:15:59">
+			<tithi name="Amavasya" elapse="75.5" index="15"/>
+			<naksatra name="Purva-bhadra" elapse="42.9" />
+			<yoga name="Subha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:39:59">
+			<tithi name="Amavasya" />
+		</arunodaya>
+		<noon time="12:07:48" />
+		<sunset time="17:59:36" />
+		<moon rise="06:51:45" set="17:50:11" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="14 Mar 2021" dayweekid="0" dayweek="Su">
+		<sunrise time="06:13:48">
+			<tithi name="Pratipat" elapse="70.8" index="16"/>
+			<naksatra name="Uttara-bhadra" elapse="36.2" />
+			<yoga name="Sukla" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:37:48">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="12:07:31" />
+		<sunset time="18:01:15" />
+		<moon rise="07:07:48" set="18:59:41" />
+		<festival name="Srila Jagannatha Dasa Babaji -- Disappearance" class="2"/>
+		<festival name="Sri Rasikananda -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="15 Mar 2021" dayweekid="1" dayweek="Mo">
+		<sunrise time="06:11:37">
+			<tithi name="Dvitiya" elapse="64.6" index="17"/>
+			<naksatra name="Revati" elapse="28.0" />
+			<yoga name="Brahma" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:35:37">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="12:07:15" />
+		<sunset time="18:02:53" />
+		<moon rise="07:23:00" set="20:07:50" />
+		<sankranti rasi="Mina" time="14:26:56" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="16 Mar 2021" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:09:25">
+			<tithi name="Tritiya" elapse="56.7" index="18"/>
+			<naksatra name="Asvini" elapse="18.4" />
+			<yoga name="Indra" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:33:25">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="12:06:58" />
+		<sunset time="18:04:31" />
+		<moon rise="07:38:22" set="21:15:24" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="17 Mar 2021" dayweekid="3" dayweek="We">
+		<sunrise time="06:07:13">
+			<tithi name="Caturthi" elapse="47.7" index="19"/>
+			<naksatra name="Bharani" elapse="7.7" />
+			<yoga name="Vaidhriti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:31:13">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="12:06:41" />
+		<sunset time="18:06:09" />
+		<moon rise="07:54:57" set="22:22:54" />
+		<festival name="Sri Purusottama Dasa Thakura -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="18 Mar 2021" dayweekid="4" dayweek="Th">
+		<sunrise time="06:05:01">
+			<tithi name="Pancami" elapse="37.8" index="20"/>
+			<naksatra name="Bharani" elapse="96.3" />
+			<yoga name="Vaidhriti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:29:01">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="12:06:24" />
+		<sunset time="18:07:46" />
+		<moon rise="08:13:57" set="23:30:22" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="19 Mar 2021" dayweekid="5" dayweek="Fr">
+		<sunrise time="06:02:49">
+			<tithi name="Sasti" elapse="27.5" index="21"/>
+			<naksatra name="Krittika" elapse="84.5" />
+			<yoga name="Viskumba" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:26:49">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="12:06:06" />
+		<sunset time="18:09:24" />
+		<moon rise="08:36:51" set="N/A" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="20 Mar 2021" dayweekid="6" dayweek="Sa">
+		<sunrise time="06:00:36">
+			<tithi name="Saptami" elapse="17.6" index="22"/>
+			<naksatra name="Rohini" elapse="73.0" />
+			<yoga name="Priti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:24:36">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="12:05:49" />
+		<sunset time="18:11:01" />
+		<moon rise="09:05:35" set="00:37:01" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="21 Mar 2021" dayweekid="0" dayweek="Su">
+		<sunrise time="05:58:24">
+			<tithi name="Astami" elapse="8.7" index="23"/>
+			<naksatra name="Mrigasira" elapse="62.4" />
+			<yoga name="Ayusmana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:22:24">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:05:31" />
+		<sunset time="18:12:38" />
+		<moon rise="09:42:25" set="01:41:02" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="22 Mar 2021" dayweekid="1" dayweek="Mo">
+		<sunrise time="05:56:11">
+			<tithi name="Navami" elapse="1.6" index="24"/>
+			<naksatra name="Ardra" elapse="53.4" />
+			<yoga name="Saubhagya" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:20:11">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:05:13" />
+		<sunset time="18:14:15" />
+		<moon rise="10:29:31" set="02:39:48" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="23 Mar 2021" dayweekid="2" dayweek="Tu">
+		<sunrise time="05:53:59">
+			<tithi name="Navami" elapse="96.9" index="24"/>
+			<naksatra name="Punarvasu" elapse="46.7" />
+			<yoga name="Sobana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:17:59">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="12:04:55" />
+		<sunset time="18:15:52" />
+		<moon rise="11:27:53" set="03:30:50" />
+		<vriddhi sd="yes" />
+	</day>
+
+	<day date="24 Mar 2021" dayweekid="3" dayweek="We">
+		<sunrise time="05:51:46">
+			<tithi name="Dasami" elapse="95.5" index="25"/>
+			<naksatra name="Pusyami" elapse="42.9" />
+			<yoga name="Atiganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:15:46">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="12:04:37" />
+		<sunset time="18:17:29" />
+		<moon rise="12:36:32" set="04:12:58" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="25 Mar 2021" dayweekid="4" dayweek="Th">
+		<sunrise time="05:49:34">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="97.8" index="26"/>
+			<naksatra name="Aslesa" elapse="42.4" />
+			<yoga name="Sukarma" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:13:34">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="12:04:19" />
+		<sunset time="18:19:05" />
+		<moon rise="13:52:43" set="04:46:53" />
+		<festival name="Trisprsa Mahadvadasi" class="-1"/>
+		<festival name="Fasting for Amalaki vrata Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="26 Mar 2021" dayweekid="5" dayweek="Fr">
+		<sunrise time="05:47:21">
+			<tithi name="Trayodasi" elapse="4.0" index="28"/>
+			<naksatra name="Magha" elapse="45.4" />
+			<yoga name="Sula" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:11:21">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="12:04:01" />
+		<sunset time="18:20:42" />
+		<moon rise="15:13:27" set="05:14:20" />
+		<parana from="05:47" to="09:58" />
+		<festival name="Sri Madhavendra Puri -- Disappearance" class="3"/>
+		<ksaya from="06:19" to="04:53" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="27 Mar 2021" dayweekid="6" dayweek="Sa">
+		<sunrise time="05:45:09">
+			<tithi name="Caturdasi" elapse="14.1" index="29"/>
+			<naksatra name="Purva-phalguni" elapse="51.8" />
+			<yoga name="Ganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:09:09">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="12:03:43" />
+		<sunset time="18:22:18" />
+		<moon rise="16:36:35" set="05:37:17" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="28 Mar 2021" dayweekid="0" dayweek="Su">
+		<sunrise time="06:42:56">
+			<tithi name="Purnima" elapse="27.3" index="30"/>
+			<naksatra name="Uttara-phalguni" elapse="61.1" />
+			<yoga name="Vriddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:06:56">
+			<tithi name="Purnima" />
+		</arunodaya>
+		<noon time="13:03:26" />
+		<sunset time="19:23:55" />
+		<moon rise="19:01:12" set="06:57:35" />
+		<festival name="Gaura Purnima: Appearance of Sri Caitanya Mahaprabhu" class="0"/>
+		<festival name="(Fast till moonrise)" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+	<masa name="Visnu Masa" gyear="Gaurabda 535">
+	<day date="29 Mar 2021" dayweekid="1" dayweek="Mo">
+		<sunrise time="06:40:44">
+			<tithi name="Pratipat" elapse="42.8" index="1"/>
+			<naksatra name="Hasta" elapse="72.5" />
+			<yoga name="Dhruva" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:04:44">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="13:03:08" />
+		<sunset time="19:25:31" />
+		<moon rise="20:27:13" set="07:16:52" />
+		<festival name="Festival of Jagannatha Misra" class="1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="30 Mar 2021" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:38:32">
+			<tithi name="Dvitiya" elapse="59.4" index="2"/>
+			<naksatra name="Citra" elapse="84.8" />
+			<yoga name="Vyagata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:02:32">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="13:02:50" />
+		<sunset time="19:27:07" />
+		<moon rise="21:54:39" set="07:36:41" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="31 Mar 2021" dayweekid="3" dayweek="We">
+		<sunrise time="06:36:20">
+			<tithi name="Tritiya" elapse="75.7" index="3"/>
+			<naksatra name="Swati" elapse="96.9" />
+			<yoga name="Harsana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:00:20">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="13:02:32" />
+		<sunset time="19:28:43" />
+		<moon rise="23:22:42" set="07:58:48" />
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+</result>
+</xml>

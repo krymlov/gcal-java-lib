@@ -1,0 +1,579 @@
+<xml>
+	<request name="Calendar" version="GCal 11">
+		<arg name="longitude" val="+30.52340" />
+		<arg name="latitude" val="+50.45010" />
+		<arg name="timezone" val="+2.00000" />
+		<arg name="startdate" val="1 Oct 2028" />
+		<arg name="daycount" val="31" />
+		<arg name="dst" val="x810590288" />
+	</request>
+	<result name="Calendar">
+	<masa name="Padmanabha Masa" gyear="Gaurabda 542">
+	<day date="1 Oct 2028" dayweekid="0" dayweek="Su">
+		<sunrise time="06:58:36">
+			<tithi name="Trayodasi" elapse="71.2" index="28"/>
+			<naksatra name="Satabhisa" elapse="76.0" />
+			<yoga name="Ganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:22:36">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="12:46:57" />
+		<sunset time="18:35:18" />
+		<moon rise="17:29:31" set="04:30:52" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="2 Oct 2028" dayweekid="1" dayweek="Mo">
+		<sunrise time="07:00:10">
+			<tithi name="Caturdasi" elapse="61.9" index="29"/>
+			<naksatra name="Purva-bhadra" elapse="65.0" />
+			<yoga name="Vriddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:24:10">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="12:46:38" />
+		<sunset time="18:33:06" />
+		<moon rise="17:43:46" set="05:37:21" />
+		<vriddhi sd="no" />
+		<caturmasya day="last" month="3" system="PURNIMA" />
+	</day>
+
+	<day date="3 Oct 2028" dayweekid="2" dayweek="Tu">
+		<sunrise time="07:01:44">
+			<tithi name="Purnima" elapse="52.9" index="30"/>
+			<naksatra name="Uttara-bhadra" elapse="54.2" />
+			<yoga name="Dhruva" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:25:44">
+			<tithi name="Purnima" />
+		</arunodaya>
+		<noon time="12:46:20" />
+		<sunset time="18:30:55" />
+		<moon rise="17:58:51" set="06:43:58" />
+		<festival name="Sri Krsna Saradiya Rasayatra" class="1"/>
+		<festival name="Sri Murari Gupta -- Disappearance" class="3"/>
+		<festival name="Laksmi Puja" class="5"/>
+		<vriddhi sd="no" />
+		<caturmasya day="first" month="4" system="PURNIMA" />
+		<caturmasya day="last" month="3" system="PRATIPAT" />
+	</day>
+
+	</masa>
+	<masa name="Damodara Masa" gyear="Gaurabda 542">
+	<day date="4 Oct 2028" dayweekid="3" dayweek="We">
+		<sunrise time="07:03:19">
+			<tithi name="Pratipat" elapse="44.4" index="1"/>
+			<naksatra name="Revati" elapse="44.0" />
+			<yoga name="Dhruva" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:27:19">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="12:46:01" />
+		<sunset time="18:28:44" />
+		<moon rise="18:15:49" set="07:51:26" />
+		<vriddhi sd="no" />
+		<caturmasya day="first" month="4" system="PRATIPAT" />
+	</day>
+
+	<day date="5 Oct 2028" dayweekid="4" dayweek="Th">
+		<sunrise time="07:04:53">
+			<tithi name="Dvitiya" elapse="36.6" index="2"/>
+			<naksatra name="Asvini" elapse="34.3" />
+			<yoga name="Vyagata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:28:53">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="12:45:44" />
+		<sunset time="18:26:34" />
+		<moon rise="18:36:02" set="09:00:04" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="6 Oct 2028" dayweekid="5" dayweek="Fr">
+		<sunrise time="07:06:28">
+			<tithi name="Tritiya" elapse="29.6" index="3"/>
+			<naksatra name="Bharani" elapse="25.5" />
+			<yoga name="Harsana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:30:28">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="12:45:26" />
+		<sunset time="18:24:24" />
+		<moon rise="19:01:16" set="10:09:28" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="7 Oct 2028" dayweekid="6" dayweek="Sa">
+		<sunrise time="07:08:04">
+			<tithi name="Caturthi" elapse="23.7" index="4"/>
+			<naksatra name="Krittika" elapse="17.6" />
+			<yoga name="Vajra" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:32:04">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="12:45:09" />
+		<sunset time="18:22:14" />
+		<moon rise="19:33:48" set="11:18:04" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="8 Oct 2028" dayweekid="0" dayweek="Su">
+		<sunrise time="07:09:39">
+			<tithi name="Pancami" elapse="19.1" index="5"/>
+			<naksatra name="Rohini" elapse="10.9" />
+			<yoga name="Siddhi" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:33:39">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="12:44:52" />
+		<sunset time="18:20:06" />
+		<moon rise="20:16:10" set="12:23:03" />
+		<festival name="Srila Narottama Dasa Thakura -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="9 Oct 2028" dayweekid="1" dayweek="Mo">
+		<sunrise time="07:11:15">
+			<tithi name="Sasti" elapse="16.1" index="6"/>
+			<naksatra name="Mrigasira" elapse="5.6" />
+			<yoga name="Vyatipata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:35:15">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="12:44:36" />
+		<sunset time="18:17:57" />
+		<moon rise="21:10:13" set="13:20:59" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="10 Oct 2028" dayweekid="2" dayweek="Tu">
+		<sunrise time="07:12:51">
+			<tithi name="Saptami" elapse="15.2" index="7"/>
+			<naksatra name="Ardra" elapse="2.2" />
+			<yoga name="Parigha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:36:51">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="12:44:20" />
+		<sunset time="18:15:50" />
+		<moon rise="22:15:48" set="14:09:28" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="11 Oct 2028" dayweekid="3" dayweek="We">
+		<sunrise time="07:14:28">
+			<tithi name="Astami" elapse="16.8" index="8"/>
+			<naksatra name="Punarvasu" elapse="1.0" />
+			<yoga name="Siva" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:38:28">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:44:05" />
+		<sunset time="18:13:43" />
+		<moon rise="23:30:27" set="14:48:16" />
+		<festival name="Appearance of Radha Kunda, snana dana" class="1"/>
+		<festival name="Bahulastami" class="1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="12 Oct 2028" dayweekid="4" dayweek="Th">
+		<sunrise time="07:16:04">
+			<tithi name="Navami" elapse="21.2" index="9"/>
+			<naksatra name="Pusyami" elapse="2.5" />
+			<yoga name="Siddha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:40:04">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="12:43:50" />
+		<sunset time="18:11:36" />
+		<moon rise="N/A" set="15:19:02" />
+		<festival name="Sri Virabhadra -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="13 Oct 2028" dayweekid="5" dayweek="Fr">
+		<sunrise time="07:17:41">
+			<tithi name="Dasami" elapse="29.0" index="10"/>
+			<naksatra name="Aslesa" elapse="6.8" />
+			<yoga name="Sadhya" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:41:41">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="12:43:36" />
+		<sunset time="18:09:31" />
+		<moon rise="00:50:40" set="15:44:00" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="14 Oct 2028" dayweekid="6" dayweek="Sa">
+		<sunrise time="07:19:19">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="40.1" index="11"/>
+			<naksatra name="Magha" elapse="14.3" />
+			<yoga name="Subha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:43:19">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="12:43:22" />
+		<sunset time="18:07:26" />
+		<moon rise="02:13:46" set="16:05:21" />
+		<festival name="Fasting for Rama Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="15 Oct 2028" dayweekid="0" dayweek="Su">
+		<sunrise time="07:20:56">
+			<tithi name="Dvadasi" elapse="54.3" index="12"/>
+			<naksatra name="Purva-phalguni" elapse="24.6" />
+			<yoga name="Sukla" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:44:56">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="12:43:09" />
+		<sunset time="18:05:22" />
+		<moon rise="03:38:22" set="16:24:55" />
+		<parana from="07:20" to="10:55" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="16 Oct 2028" dayweekid="1" dayweek="Mo">
+		<sunrise time="07:22:34">
+			<tithi name="Trayodasi" elapse="71.1" index="13"/>
+			<naksatra name="Uttara-phalguni" elapse="37.1" />
+			<yoga name="Brahma" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:46:34">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="12:42:57" />
+		<sunset time="18:03:19" />
+		<moon rise="05:04:19" set="16:44:20" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="17 Oct 2028" dayweekid="2" dayweek="Tu">
+		<sunrise time="07:24:12">
+			<tithi name="Caturdasi" elapse="89.2" index="14"/>
+			<naksatra name="Hasta" elapse="50.8" />
+			<yoga name="Vaidhriti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:48:12">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="12:42:45" />
+		<sunset time="18:01:17" />
+		<moon rise="09:28:39" set="18:00:27" />
+		<sankranti rasi="Tula" time="05:40:17" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="18 Oct 2028" dayweekid="3" dayweek="We">
+		<sunrise time="07:25:51">
+			<tithi name="Pratipat" elapse="7.2" index="16"/>
+			<naksatra name="Citra" elapse="64.5" />
+			<yoga name="Viskumba" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:49:51">
+			<tithi name="Amavasya" />
+		</arunodaya>
+		<noon time="12:42:33" />
+		<sunset time="17:59:16" />
+		<moon rise="08:00:33" set="17:29:51" />
+		<festival name="Go Puja. Go Krda. Govardhana Puja." class="1"/>
+		<festival name="Dipa dana, Dipavali, (Kali Puja)" class="1"/>
+		<festival name="Bali Daityaraja Puja" class="1"/>
+		<festival name="Sri Rasikananda -- Appearance" class="3"/>
+		<ksaya from="09:36" to="05:57" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="19 Oct 2028" dayweekid="4" dayweek="Th">
+		<sunrise time="07:27:30">
+			<tithi name="Dvitiya" elapse="23.7" index="17"/>
+			<naksatra name="Swati" elapse="76.8" />
+			<yoga name="Priti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:51:30">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="12:42:23" />
+		<sunset time="17:57:15" />
+		<moon rise="09:28:39" set="18:00:27" />
+		<festival name="Sri Vasudeva Ghosh -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="20 Oct 2028" dayweekid="5" dayweek="Fr">
+		<sunrise time="07:29:09">
+			<tithi name="Tritiya" elapse="37.4" index="18"/>
+			<naksatra name="Visakha" elapse="86.6" />
+			<yoga name="Ayusmana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:53:09">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="12:42:13" />
+		<sunset time="17:55:16" />
+		<moon rise="10:51:56" set="18:40:03" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="21 Oct 2028" dayweekid="6" dayweek="Sa">
+		<sunrise time="07:30:48">
+			<tithi name="Caturthi" elapse="47.4" index="19"/>
+			<naksatra name="Anuradha" elapse="93.1" />
+			<yoga name="Saubhagya" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:54:48">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="12:42:03" />
+		<sunset time="17:53:18" />
+		<moon rise="12:04:51" set="19:30:50" />
+		<festival name="Srila Prabhupada -- Disappearance" class="2"/>
+		<festival name="(Fast till noon)" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="22 Oct 2028" dayweekid="0" dayweek="Su">
+		<sunrise time="07:32:28">
+			<tithi name="Pancami" elapse="53.4" index="20"/>
+			<naksatra name="Jyestha" elapse="95.9" />
+			<yoga name="Sobana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:56:28">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="12:41:54" />
+		<sunset time="17:51:20" />
+		<moon rise="13:03:23" set="20:32:24" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="23 Oct 2028" dayweekid="1" dayweek="Mo">
+		<sunrise time="07:34:08">
+			<tithi name="Sasti" elapse="55.3" index="21"/>
+			<naksatra name="Mula" elapse="95.1" />
+			<yoga name="Atiganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:58:08">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="12:41:46" />
+		<sunset time="17:49:24" />
+		<moon rise="13:47:31" set="21:41:14" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="24 Oct 2028" dayweekid="2" dayweek="Tu">
+		<sunrise time="07:35:48">
+			<tithi name="Saptami" elapse="53.6" index="22"/>
+			<naksatra name="Purva-asadha" elapse="91.1" />
+			<yoga name="Sukarma" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="05:59:48">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="12:41:39" />
+		<sunset time="17:47:29" />
+		<moon rise="14:20:11" set="22:52:48" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="25 Oct 2028" dayweekid="3" dayweek="We">
+		<sunrise time="07:37:29">
+			<tithi name="Astami" elapse="49.0" index="23"/>
+			<naksatra name="Uttara-asadha" elapse="84.3" />
+			<yoga name="Dhriti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="06:01:29">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="12:41:32" />
+		<sunset time="17:45:36" />
+		<moon rise="14:44:54" set="N/A" />
+		<festival name="Gopastami, Gosthastami" class="1"/>
+		<festival name="Sri Gadadhara Dasa Gosvami -- Disappearance" class="3"/>
+		<festival name="Sri Dhananjaya Pandita -- Disappearance" class="3"/>
+		<festival name="Sri Srinivasa Acarya -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="26 Oct 2028" dayweekid="4" dayweek="Th">
+		<sunrise time="07:39:09">
+			<tithi name="Navami" elapse="42.0" index="24"/>
+			<naksatra name="Sravana" elapse="75.6" />
+			<yoga name="Sula" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="06:03:09">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="12:41:26" />
+		<sunset time="17:43:43" />
+		<moon rise="15:04:32" set="00:03:55" />
+		<festival name="Jagaddhatri Puja" class="5"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="27 Oct 2028" dayweekid="5" dayweek="Fr">
+		<sunrise time="07:40:50">
+			<tithi name="Dasami" elapse="33.5" index="25"/>
+			<naksatra name="Dhanista" elapse="65.4" />
+			<yoga name="Ganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="06:04:50">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="12:41:21" />
+		<sunset time="17:41:52" />
+		<moon rise="15:21:05" set="01:13:14" />
+		<vriddhi sd="no" />
+	<caturmasya day="last" month="4" system="EKADASI" />
+	</day>
+
+	<day date="28 Oct 2028" dayweekid="6" dayweek="Sa">
+		<sunrise time="07:42:31">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="24.2" index="26"/>
+			<naksatra name="Satabhisa" elapse="54.5" />
+			<yoga name="Vriddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="1" />
+		<arunodaya time="06:06:31">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="12:41:17" />
+		<sunset time="17:40:02" />
+		<moon rise="15:36:01" set="02:20:45" />
+		<festival name="Fasting for Utthana Ekadasi" class="-1"/>
+		<festival name="Srila Gaura Kisora Dasa Babaji -- Disappearance" class="2"/>
+		<festival name="(Fasting till noon, with feast tomorrow)" class="-1"/>
+		<festival name="First day of Bhisma Pancaka" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="29 Oct 2028" dayweekid="0" dayweek="Su">
+		<sunrise time="06:44:12">
+			<tithi name="Dvadasi" elapse="14.6" index="27"/>
+			<naksatra name="Purva-bhadra" elapse="43.4" />
+			<yoga name="Dhruva" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:08:12">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="11:41:13" />
+		<sunset time="16:38:14" />
+		<moon rise="14:50:27" set="02:27:12" />
+		<parana from="09:29" to="10:02" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="30 Oct 2028" dayweekid="1" dayweek="Mo">
+		<sunrise time="06:45:54">
+			<tithi name="Trayodasi" elapse="5.3" index="28"/>
+			<naksatra name="Uttara-bhadra" elapse="32.5" />
+			<yoga name="Vyagata" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:09:54">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="11:41:10" />
+		<sunset time="16:36:27" />
+		<moon rise="15:05:25" set="03:33:30" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="31 Oct 2028" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:47:35">
+			<tithi name="Trayodasi" elapse="96.7" index="28"/>
+			<naksatra name="Revati" elapse="22.3" />
+			<yoga name="Harsana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:11:35">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="11:41:08" />
+		<sunset time="16:34:41" />
+		<moon rise="15:21:57" set="04:40:33" />
+		<vriddhi sd="yes" />
+	</day>
+
+	</masa>
+</result>
+</xml>

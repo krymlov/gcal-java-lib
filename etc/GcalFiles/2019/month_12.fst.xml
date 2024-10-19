@@ -1,0 +1,563 @@
+<xml>
+	<request name="Calendar" version="GCal 11">
+		<arg name="longitude" val="+30.52340" />
+		<arg name="latitude" val="+50.45010" />
+		<arg name="timezone" val="+2.00000" />
+		<arg name="startdate" val="1 Dec 2019" />
+		<arg name="daycount" val="31" />
+		<arg name="dst" val="x810590288" />
+	</request>
+	<result name="Calendar">
+	<masa name="Kesava Masa" gyear="Gaurabda 533">
+	<day date="1 Dec 2019" dayweekid="0" dayweek="Su">
+		<sunrise time="07:35:55">
+			<tithi name="Pancami" elapse="67.8" index="20"/>
+			<naksatra name="Sravana" elapse="5.5" />
+			<yoga name="Vriddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:59:55">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="11:46:36" />
+		<sunset time="15:57:18" />
+		<moon rise="11:54:26" set="20:25:09" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="2 Dec 2019" dayweekid="1" dayweek="Mo">
+		<sunrise time="07:37:16">
+			<tithi name="Sasti" elapse="61.8" index="21"/>
+			<naksatra name="Sravana" elapse="97.7" />
+			<yoga name="Dhruva" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:01:16">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="11:46:59" />
+		<sunset time="15:56:43" />
+		<moon rise="12:25:33" set="21:31:38" />
+		<festival name="Odana sasthi" class="1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="3 Dec 2019" dayweekid="2" dayweek="Tu">
+		<sunrise time="07:38:35">
+			<tithi name="Saptami" elapse="53.9" index="22"/>
+			<naksatra name="Dhanista" elapse="88.2" />
+			<yoga name="Vyagata" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:02:35">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="11:47:23" />
+		<sunset time="15:56:11" />
+		<moon rise="12:50:39" set="22:38:07" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="4 Dec 2019" dayweekid="3" dayweek="We">
+		<sunrise time="07:39:52">
+			<tithi name="Astami" elapse="44.9" index="23"/>
+			<naksatra name="Satabhisa" elapse="77.7" />
+			<yoga name="Harsana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:03:52">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="11:47:47" />
+		<sunset time="15:55:43" />
+		<moon rise="13:11:45" set="23:43:56" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="5 Dec 2019" dayweekid="4" dayweek="Th">
+		<sunrise time="07:41:07">
+			<tithi name="Navami" elapse="35.4" index="24"/>
+			<naksatra name="Purva-bhadra" elapse="66.8" />
+			<yoga name="Vajra" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:05:07">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="11:48:12" />
+		<sunset time="15:55:18" />
+		<moon rise="13:30:27" set="N/A" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="6 Dec 2019" dayweekid="5" dayweek="Fr">
+		<sunrise time="07:42:20">
+			<tithi name="Dasami" elapse="26.1" index="25"/>
+			<naksatra name="Uttara-bhadra" elapse="56.0" />
+			<yoga name="Siddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:06:20">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="11:48:38" />
+		<sunset time="15:54:55" />
+		<moon rise="13:48:00" set="00:49:15" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="7 Dec 2019" dayweekid="6" dayweek="Sa">
+		<sunrise time="07:43:31">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="17.7" index="26"/>
+			<naksatra name="Revati" elapse="46.0" />
+			<yoga name="Vyatipata" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:07:31">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="11:49:04" />
+		<sunset time="15:54:36" />
+		<moon rise="14:05:32" set="01:54:41" />
+		<festival name="Fasting for Moksada Ekadasi" class="-1"/>
+		<festival name="Advent of Srimad Bhagavad-gita" class="1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="8 Dec 2019" dayweekid="0" dayweek="Su">
+		<sunrise time="07:44:40">
+			<tithi name="Dvadasi" elapse="10.6" index="27"/>
+			<naksatra name="Asvini" elapse="37.3" />
+			<yoga name="Variyana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:08:40">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="11:49:30" />
+		<sunset time="15:54:21" />
+		<moon rise="14:24:09" set="03:01:04" />
+		<parana after="11:23" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="9 Dec 2019" dayweekid="1" dayweek="Mo">
+		<sunrise time="07:45:46">
+			<tithi name="Trayodasi" elapse="5.3" index="28"/>
+			<naksatra name="Bharani" elapse="30.1" />
+			<yoga name="Parigha" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:09:46">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="11:49:57" />
+		<sunset time="15:54:08" />
+		<moon rise="14:45:06" set="04:09:04" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="10 Dec 2019" dayweekid="2" dayweek="Tu">
+		<sunrise time="07:46:50">
+			<tithi name="Caturdasi" elapse="2.1" index="29"/>
+			<naksatra name="Krittika" elapse="24.9" />
+			<yoga name="Siva" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:10:50">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="11:50:24" />
+		<sunset time="15:53:59" />
+		<moon rise="15:09:59" set="05:18:59" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="11 Dec 2019" dayweekid="3" dayweek="We">
+		<sunrise time="07:47:52">
+			<tithi name="Purnima" elapse="1.1" index="30"/>
+			<naksatra name="Rohini" elapse="21.6" />
+			<yoga name="Siddha" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:11:52">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="11:50:52" />
+		<sunset time="15:53:53" />
+		<moon rise="15:40:48" set="06:30:09" />
+		<festival name="Katyayani vrata ends" class="1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+	<masa name="Narayana Masa" gyear="Gaurabda 533">
+	<day date="12 Dec 2019" dayweekid="4" dayweek="Th">
+		<sunrise time="07:48:51">
+			<tithi name="Pratipat" elapse="2.4" index="1"/>
+			<naksatra name="Mrigasira" elapse="20.4" />
+			<yoga name="Sadhya" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:12:51">
+			<tithi name="Purnima" />
+		</arunodaya>
+		<noon time="11:51:20" />
+		<sunset time="15:53:50" />
+		<moon rise="16:19:58" set="07:40:34" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="13 Dec 2019" dayweekid="5" dayweek="Fr">
+		<sunrise time="07:49:48">
+			<tithi name="Dvitiya" elapse="5.8" index="2"/>
+			<naksatra name="Ardra" elapse="21.1" />
+			<yoga name="Subha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:13:48">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="11:51:49" />
+		<sunset time="15:53:50" />
+		<moon rise="17:09:40" set="08:46:53" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="14 Dec 2019" dayweekid="6" dayweek="Sa">
+		<sunrise time="07:50:42">
+			<tithi name="Tritiya" elapse="11.1" index="3"/>
+			<naksatra name="Punarvasu" elapse="23.5" />
+			<yoga name="Brahma" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:14:42">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="11:52:18" />
+		<sunset time="15:53:54" />
+		<moon rise="18:10:42" set="09:45:26" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="15 Dec 2019" dayweekid="0" dayweek="Su">
+		<sunrise time="07:51:33">
+			<tithi name="Caturthi" elapse="17.9" index="4"/>
+			<naksatra name="Pusyami" elapse="27.3" />
+			<yoga name="Indra" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:15:33">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="11:52:47" />
+		<sunset time="15:54:01" />
+		<moon rise="19:21:20" set="10:34:09" />
+		<festival name="Srila Bhaktisiddhanta Sarasvati Thakura -- Disappearance" class="2"/>
+		<festival name="(Fast till noon)" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="16 Dec 2019" dayweekid="1" dayweek="Mo">
+		<sunrise time="07:52:22">
+			<tithi name="Pancami" elapse="26.0" index="5"/>
+			<naksatra name="Aslesa" elapse="32.2" />
+			<yoga name="Vaidhriti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:16:22">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="11:53:17" />
+		<sunset time="15:54:11" />
+		<moon rise="20:38:02" set="11:13:20" />
+		<sankranti rasi="Dhanus" time="11:44:12" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="17 Dec 2019" dayweekid="2" dayweek="Tu">
+		<sunrise time="07:53:08">
+			<tithi name="Sasti" elapse="34.9" index="6"/>
+			<naksatra name="Magha" elapse="37.8" />
+			<yoga name="Viskumba" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:17:08">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="11:53:46" />
+		<sunset time="15:54:25" />
+		<moon rise="21:57:16" set="11:44:54" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="18 Dec 2019" dayweekid="3" dayweek="We">
+		<sunrise time="07:53:51">
+			<tithi name="Saptami" elapse="44.4" index="7"/>
+			<naksatra name="Purva-phalguni" elapse="44.0" />
+			<yoga name="Priti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:17:51">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="11:54:16" />
+		<sunset time="15:54:41" />
+		<moon rise="23:16:51" set="12:11:08" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="19 Dec 2019" dayweekid="4" dayweek="Th">
+		<sunrise time="07:54:31">
+			<tithi name="Astami" elapse="54.2" index="8"/>
+			<naksatra name="Uttara-phalguni" elapse="50.5" />
+			<yoga name="Ayusmana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:18:31">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="11:54:46" />
+		<sunset time="15:55:01" />
+		<moon rise="N/A" set="12:34:08" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="20 Dec 2019" dayweekid="5" dayweek="Fr">
+		<sunrise time="07:55:08">
+			<tithi name="Navami" elapse="63.9" index="9"/>
+			<naksatra name="Hasta" elapse="56.9" />
+			<yoga name="Saubhagya" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:19:08">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="11:55:16" />
+		<sunset time="15:55:25" />
+		<moon rise="00:36:04" set="12:55:38" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="21 Dec 2019" dayweekid="6" dayweek="Sa">
+		<sunrise time="07:55:43">
+			<tithi name="Dasami" elapse="73.4" index="10"/>
+			<naksatra name="Citra" elapse="63.0" />
+			<yoga name="Sobana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:19:43">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="11:55:47" />
+		<sunset time="15:55:51" />
+		<moon rise="01:55:02" set="13:17:12" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="22 Dec 2019" dayweekid="0" dayweek="Su">
+		<sunrise time="07:56:14">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="82.1" index="11"/>
+			<naksatra name="Swati" elapse="68.5" />
+			<yoga name="Sukarma" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:20:14">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="11:56:17" />
+		<sunset time="15:56:20" />
+		<moon rise="03:14:04" set="13:40:25" />
+		<festival name="Fasting for Saphala Ekadasi" class="-1"/>
+		<festival name="Sri Devananda Pandita -- Disappearance" class="3"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="23 Dec 2019" dayweekid="1" dayweek="Mo">
+		<sunrise time="07:56:42">
+			<tithi name="Dvadasi" elapse="89.8" index="12"/>
+			<naksatra name="Visakha" elapse="73.0" />
+			<yoga name="Dhriti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:20:42">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="11:56:47" />
+		<sunset time="15:56:53" />
+		<moon rise="04:33:01" set="14:07:00" />
+		<parana from="07:56" to="10:14" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="24 Dec 2019" dayweekid="2" dayweek="Tu">
+		<sunrise time="07:57:07">
+			<tithi name="Trayodasi" elapse="96.1" index="13"/>
+			<naksatra name="Anuradha" elapse="76.3" />
+			<yoga name="Sula" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:21:07">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="11:57:18" />
+		<sunset time="15:57:29" />
+		<moon rise="05:50:35" set="14:39:00" />
+		<festival name="Sri Mahesa Pandita -- Disappearance" class="3"/>
+		<festival name="Sri Uddharana Datta Thakura -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="25 Dec 2019" dayweekid="3" dayweek="We">
+		<sunrise time="07:57:29">
+			<tithi name="Amavasya" elapse="0.5" index="15"/>
+			<naksatra name="Jyestha" elapse="78.0" />
+			<yoga name="Ganda" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:21:29">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="11:57:48" />
+		<sunset time="15:58:08" />
+		<moon rise="07:04:04" set="15:18:28" />
+		<ksaya from="08:51" to="07:49" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="26 Dec 2019" dayweekid="4" dayweek="Th">
+		<sunrise time="07:57:47">
+			<tithi name="Pratipat" elapse="3.0" index="16"/>
+			<naksatra name="Mula" elapse="77.9" />
+			<yoga name="Vriddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:21:47">
+			<tithi name="Amavasya" />
+		</arunodaya>
+		<noon time="11:58:18" />
+		<sunset time="15:58:50" />
+		<moon rise="08:09:58" set="16:06:51" />
+		<festival name="Sri Locana Dasa Thakura -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="27 Dec 2019" dayweekid="5" dayweek="Fr">
+		<sunrise time="07:58:03">
+			<tithi name="Dvitiya" elapse="3.2" index="17"/>
+			<naksatra name="Purva-asadha" elapse="75.7" />
+			<yoga name="Dhruva" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:22:03">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="11:58:49" />
+		<sunset time="15:59:34" />
+		<moon rise="09:05:31" set="17:03:54" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="28 Dec 2019" dayweekid="6" dayweek="Sa">
+		<sunrise time="07:58:15">
+			<tithi name="Tritiya" elapse="1.1" index="18"/>
+			<naksatra name="Uttara-asadha" elapse="71.4" />
+			<yoga name="Vyagata" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:22:15">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="11:59:19" />
+		<sunset time="16:00:22" />
+		<moon rise="09:50:06" set="18:07:23" />
+		<festival name="Srila Jiva Gosvami -- Disappearance" class="3"/>
+		<festival name="Sri Jagadisa Pandita -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="29 Dec 2019" dayweekid="0" dayweek="Su">
+		<sunrise time="07:58:24">
+			<tithi name="Tritiya" elapse="96.7" index="18"/>
+			<naksatra name="Sravana" elapse="65.2" />
+			<yoga name="Harsana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:22:24">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="11:59:48" />
+		<sunset time="16:01:13" />
+		<moon rise="10:25:09" set="19:14:09" />
+		<vriddhi sd="yes" />
+	</day>
+
+	<day date="30 Dec 2019" dayweekid="1" dayweek="Mo">
+		<sunrise time="07:58:30">
+			<tithi name="Caturthi" elapse="90.4" index="19"/>
+			<naksatra name="Dhanista" elapse="57.1" />
+			<yoga name="Vajra" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:22:30">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="12:00:18" />
+		<sunset time="16:02:06" />
+		<moon rise="10:52:58" set="20:21:35" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="31 Dec 2019" dayweekid="2" dayweek="Tu">
+		<sunrise time="07:58:33">
+			<tithi name="Pancami" elapse="82.5" index="20"/>
+			<naksatra name="Satabhisa" elapse="47.7" />
+			<yoga name="Siddhi" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:22:33">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="12:00:47" />
+		<sunset time="16:03:02" />
+		<moon rise="11:15:47" set="21:28:17" />
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+</result>
+</xml>
