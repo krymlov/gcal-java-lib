@@ -30,7 +30,7 @@ public class GCalKyivTest extends AGaurabdaTest {
                     ym.getMonthValue(), ym.lengthOfMonth());
             String gcalXml = GCalManager.nativeGCal4Query(query);
             System.out.println(query + " => " + gcalXml.length() + " bytes");
-            File file = new File("target/" + year, "month_" + month + ".fst.xml");
+            File file = new File("target/Kyiv/" + year, "month_" + month + ".fst.xml");
             FileUtils.writeStringToFile(file, gcalXml);
         }
     }
