@@ -1,0 +1,545 @@
+<xml>
+	<request name="Calendar" version="GCal 11j3">
+		<arg name="longitude" val="+27.55000" />
+		<arg name="latitude" val="+53.91667" />
+		<arg name="timezone" val="+3.00000" />
+		<arg name="startdate" val="1 Sep 2020" />
+		<arg name="daycount" val="30" />
+		<arg name="dst" val="x0" />
+	</request>
+	<result name="Calendar">
+	<masa name="Hrsikesa Masa" gyear="Gaurabda 534">
+	<day date="1 Sep 2020" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:18:40">
+			<tithi name="Caturdasi" elapse="96.5" index="29"/>
+			<naksatra name="Dhanista" elapse="69.5" />
+			<yoga name="Atiganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:42:40">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="13:09:04" />
+		<sunset time="19:59:29" />
+		<moon rise="20:23:11" set="04:40:39" />
+		<festival name="Ananta Caturdasi Vrata" class="1"/>
+		<festival name="Srila Haridasa Thakura -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+		<caturmasya day="last" month="2" system="PURNIMA" />
+	</day>
+
+	<day date="2 Sep 2020" dayweekid="3" dayweek="We">
+		<sunrise time="06:20:26">
+			<tithi name="Purnima" elapse="91.9" index="30"/>
+			<naksatra name="Satabhisa" elapse="62.6" />
+			<yoga name="Sukarma" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:44:26">
+			<tithi name="Purnima" />
+		</arunodaya>
+		<noon time="13:08:45" />
+		<sunset time="19:57:03" />
+		<moon rise="20:39:20" set="05:54:57" />
+		<festival name="Sri Visvarupa Mahotsava" class="1"/>
+		<festival name="Acceptance of sannyasa by Srila Prabhupada" class="4"/>
+		<vriddhi sd="no" />
+		<caturmasya day="first" month="3" system="PURNIMA" />
+		<caturmasya day="last" month="2" system="PRATIPAT" />
+	</day>
+
+	</masa>
+	<masa name="Padmanabha Masa" gyear="Gaurabda 534">
+	<day date="3 Sep 2020" dayweekid="4" dayweek="Th">
+		<sunrise time="06:22:13">
+			<tithi name="Pratipat" elapse="85.9" index="1"/>
+			<naksatra name="Purva-bhadra" elapse="54.5" />
+			<yoga name="Dhriti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:46:13">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="13:08:25" />
+		<sunset time="19:54:38" />
+		<moon rise="20:53:15" set="07:07:35" />
+		<vriddhi sd="no" />
+		<caturmasya day="first" month="3" system="PRATIPAT" />
+	</day>
+
+	<day date="4 Sep 2020" dayweekid="5" dayweek="Fr">
+		<sunrise time="06:23:59">
+			<tithi name="Dvitiya" elapse="78.8" index="2"/>
+			<naksatra name="Uttara-bhadra" elapse="45.3" />
+			<yoga name="Sula" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:47:59">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="13:08:06" />
+		<sunset time="19:52:12" />
+		<moon rise="21:06:05" set="08:18:29" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="5 Sep 2020" dayweekid="6" dayweek="Sa">
+		<sunrise time="06:25:46">
+			<tithi name="Tritiya" elapse="70.5" index="3"/>
+			<naksatra name="Revati" elapse="35.2" />
+			<yoga name="Ganda" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:49:46">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="13:07:46" />
+		<sunset time="19:49:46" />
+		<moon rise="21:18:52" set="09:28:10" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="6 Sep 2020" dayweekid="0" dayweek="Su">
+		<sunrise time="06:27:32">
+			<tithi name="Caturthi" elapse="61.5" index="4"/>
+			<naksatra name="Asvini" elapse="24.4" />
+			<yoga name="Vriddhi" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:51:32">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="13:07:26" />
+		<sunset time="19:47:19" />
+		<moon rise="21:32:32" set="10:37:27" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="7 Sep 2020" dayweekid="1" dayweek="Mo">
+		<sunrise time="06:29:18">
+			<tithi name="Pancami" elapse="52.1" index="5"/>
+			<naksatra name="Bharani" elapse="13.2" />
+			<yoga name="Dhruva" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:53:18">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="13:07:05" />
+		<sunset time="19:44:52" />
+		<moon rise="21:48:10" set="11:47:02" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="8 Sep 2020" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:31:05">
+			<tithi name="Sasti" elapse="42.8" index="6"/>
+			<naksatra name="Krittika" elapse="2.1" />
+			<yoga name="Vyagata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:55:05">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="13:06:45" />
+		<sunset time="19:42:24" />
+		<moon rise="22:07:12" set="12:57:14" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="9 Sep 2020" dayweekid="3" dayweek="We">
+		<sunrise time="06:32:51">
+			<tithi name="Saptami" elapse="34.2" index="7"/>
+			<naksatra name="Krittika" elapse="91.6" />
+			<yoga name="Harsana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:56:51">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="13:06:24" />
+		<sunset time="19:39:57" />
+		<moon rise="22:31:37" set="14:07:38" />
+		<festival name="Srila Prabhupada's arrival in the USA" class="4"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="10 Sep 2020" dayweekid="4" dayweek="Th">
+		<sunrise time="06:34:37">
+			<tithi name="Astami" elapse="27.0" index="8"/>
+			<naksatra name="Rohini" elapse="82.4" />
+			<yoga name="Vajra" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="04:58:37">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="13:06:03" />
+		<sunset time="19:37:29" />
+		<moon rise="23:04:06" set="15:16:33" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="11 Sep 2020" dayweekid="5" dayweek="Fr">
+		<sunrise time="06:36:24">
+			<tithi name="Navami" elapse="21.9" index="9"/>
+			<naksatra name="Mrigasira" elapse="75.2" />
+			<yoga name="Siddhi" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:00:24">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="13:05:42" />
+		<sunset time="19:35:00" />
+		<moon rise="N/A" set="16:20:54" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="12 Sep 2020" dayweekid="6" dayweek="Sa">
+		<sunrise time="06:38:10">
+			<tithi name="Dasami" elapse="19.6" index="10"/>
+			<naksatra name="Ardra" elapse="70.5" />
+			<yoga name="Vyatipata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:02:10">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="13:05:21" />
+		<sunset time="19:32:32" />
+		<moon rise="N/A" set="17:17:06" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="13 Sep 2020" dayweekid="0" dayweek="Su">
+		<sunrise time="06:39:57">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="20.9" index="11"/>
+			<naksatra name="Punarvasu" elapse="68.9" />
+			<yoga name="Variyana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:03:57">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="13:05:00" />
+		<sunset time="19:30:03" />
+		<moon rise="00:45:07" set="18:02:51" />
+		<festival name="Fasting for Indira Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="14 Sep 2020" dayweekid="1" dayweek="Mo">
+		<sunrise time="06:41:43">
+			<tithi name="Dvadasi" elapse="26.1" index="12"/>
+			<naksatra name="Pusyami" elapse="70.9" />
+			<yoga name="Parigha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:05:43">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="13:04:39" />
+		<sunset time="19:27:34" />
+		<moon rise="01:55:55" set="18:38:27" />
+		<parana from="06:41" to="10:57" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="15 Sep 2020" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:43:30">
+			<tithi name="Trayodasi" elapse="35.4" index="13"/>
+			<naksatra name="Aslesa" elapse="76.6" />
+			<yoga name="Siva" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:07:30">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="13:04:17" />
+		<sunset time="19:25:05" />
+		<moon rise="03:17:05" set="19:06:00" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="16 Sep 2020" dayweekid="3" dayweek="We">
+		<sunrise time="06:45:16">
+			<tithi name="Caturdasi" elapse="48.5" index="14"/>
+			<naksatra name="Magha" elapse="85.7" />
+			<yoga name="Sadhya" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:09:16">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="13:03:56" />
+		<sunset time="19:22:36" />
+		<moon rise="04:44:17" set="19:28:03" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="17 Sep 2020" dayweekid="4" dayweek="Th">
+		<sunrise time="06:47:03">
+			<tithi name="Amavasya" elapse="64.5" index="15"/>
+			<naksatra name="Purva-phalguni" elapse="97.5" />
+			<yoga name="Subha" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:11:03">
+			<tithi name="Amavasya" />
+		</arunodaya>
+		<noon time="13:03:35" />
+		<sunset time="19:20:07" />
+		<moon rise="06:14:02" set="19:46:46" />
+		<sankranti rasi="Kanya" time="16:29:17" />
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+	<masa name="Purusottama-adhika Masa" gyear="Gaurabda 534">
+	<day date="18 Sep 2020" dayweekid="5" dayweek="Fr">
+		<sunrise time="06:48:49">
+			<tithi name="Pratipat" elapse="82.4" index="16"/>
+			<naksatra name="Hasta" elapse="10.9" />
+			<yoga name="Sukla" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:12:49">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="13:03:14" />
+		<sunset time="19:17:38" />
+		<moon rise="07:44:36" set="20:03:59" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="19 Sep 2020" dayweekid="6" dayweek="Sa">
+		<sunrise time="06:50:36">
+			<tithi name="Tritiya" elapse="0.7" index="18"/>
+			<naksatra name="Citra" elapse="24.6" />
+			<yoga name="Brahma" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:14:36">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="13:02:52" />
+		<sunset time="19:15:09" />
+		<moon rise="09:15:25" set="20:21:16" />
+		<ksaya from="10:22" to="06:42" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="20 Sep 2020" dayweekid="0" dayweek="Su">
+		<sunrise time="06:52:23">
+			<tithi name="Caturthi" elapse="17.9" index="19"/>
+			<naksatra name="Swati" elapse="37.4" />
+			<yoga name="Indra" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:16:23">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="13:02:31" />
+		<sunset time="19:12:40" />
+		<moon rise="10:46:18" set="20:40:17" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="21 Sep 2020" dayweekid="1" dayweek="Mo">
+		<sunrise time="06:54:10">
+			<tithi name="Pancami" elapse="32.8" index="20"/>
+			<naksatra name="Visakha" elapse="48.2" />
+			<yoga name="Viskumba" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:18:10">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="13:02:10" />
+		<sunset time="19:10:11" />
+		<moon rise="12:16:26" set="21:03:05" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="22 Sep 2020" dayweekid="2" dayweek="Tu">
+		<sunrise time="06:55:57">
+			<tithi name="Sasti" elapse="44.8" index="21"/>
+			<naksatra name="Anuradha" elapse="56.3" />
+			<yoga name="Priti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:19:57">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="13:01:49" />
+		<sunset time="19:07:41" />
+		<moon rise="13:43:28" set="21:32:17" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="23 Sep 2020" dayweekid="3" dayweek="We">
+		<sunrise time="06:57:44">
+			<tithi name="Saptami" elapse="53.4" index="22"/>
+			<naksatra name="Jyestha" elapse="61.5" />
+			<yoga name="Ayusmana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:21:44">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="13:01:28" />
+		<sunset time="19:05:12" />
+		<moon rise="15:03:08" set="22:11:01" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="24 Sep 2020" dayweekid="4" dayweek="Th">
+		<sunrise time="06:59:32">
+			<tithi name="Astami" elapse="58.9" index="23"/>
+			<naksatra name="Mula" elapse="63.7" />
+			<yoga name="Saubhagya" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:23:32">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="13:01:08" />
+		<sunset time="19:02:44" />
+		<moon rise="16:10:32" set="23:01:46" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="25 Sep 2020" dayweekid="5" dayweek="Fr">
+		<sunrise time="07:01:19">
+			<tithi name="Navami" elapse="61.3" index="24"/>
+			<naksatra name="Purva-asadha" elapse="63.3" />
+			<yoga name="Sobana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:25:19">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="13:00:47" />
+		<sunset time="19:00:15" />
+		<moon rise="17:02:56" set="N/A" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="26 Sep 2020" dayweekid="6" dayweek="Sa">
+		<sunrise time="07:03:07">
+			<tithi name="Dasami" elapse="61.2" index="25"/>
+			<naksatra name="Uttara-asadha" elapse="60.5" />
+			<yoga name="Atiganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:27:07">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="13:00:27" />
+		<sunset time="18:57:46" />
+		<moon rise="17:41:27" set="00:04:11" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="27 Sep 2020" dayweekid="0" dayweek="Su">
+		<sunrise time="07:04:55">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="58.9" index="26"/>
+			<naksatra name="Sravana" elapse="55.9" />
+			<yoga name="Sukarma" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:28:55">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="13:00:07" />
+		<sunset time="18:55:18" />
+		<moon rise="18:09:29" set="01:14:43" />
+		<festival name="Fasting for Padmini Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="28 Sep 2020" dayweekid="1" dayweek="Mo">
+		<sunrise time="07:06:43">
+			<tithi name="Dvadasi" elapse="54.9" index="27"/>
+			<naksatra name="Dhanista" elapse="49.6" />
+			<yoga name="Dhriti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:30:43">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="12:59:47" />
+		<sunset time="18:52:50" />
+		<moon rise="18:30:31" set="02:28:45" />
+		<parana from="07:06" to="11:02" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="29 Sep 2020" dayweekid="2" dayweek="Tu">
+		<sunrise time="07:08:32">
+			<tithi name="Trayodasi" elapse="49.5" index="28"/>
+			<naksatra name="Satabhisa" elapse="42.1" />
+			<yoga name="Sula" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:32:32">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="12:59:27" />
+		<sunset time="18:50:22" />
+		<moon rise="18:47:09" set="03:42:57" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="30 Sep 2020" dayweekid="3" dayweek="We">
+		<sunrise time="07:10:20">
+			<tithi name="Caturdasi" elapse="43.0" index="29"/>
+			<naksatra name="Purva-bhadra" elapse="33.6" />
+			<yoga name="Ganda" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="05:34:20">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="12:59:07" />
+		<sunset time="18:47:55" />
+		<moon rise="19:01:11" set="04:55:47" />
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+</result>
+</xml>

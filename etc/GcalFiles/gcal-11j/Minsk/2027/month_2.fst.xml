@@ -1,0 +1,524 @@
+<xml>
+	<request name="Calendar" version="GCal 11j3">
+		<arg name="longitude" val="+27.55000" />
+		<arg name="latitude" val="+53.91667" />
+		<arg name="timezone" val="+3.00000" />
+		<arg name="startdate" val="1 Feb 2027" />
+		<arg name="daycount" val="28" />
+		<arg name="dst" val="x0" />
+	</request>
+	<result name="Calendar">
+	<masa name="Madhava Masa" gyear="Gaurabda 540">
+	<day date="1 Feb 2027" dayweekid="1" dayweek="Mo">
+		<sunrise time="08:57:02">
+			<tithi name="Ekadasi (not suitable for fasting)" elapse="10.4" index="11"/>
+			<naksatra name="Jyestha" elapse="18.6" />
+			<yoga name="Dhruva" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:21:02">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="13:23:39" />
+		<sunset time="17:50:16" />
+		<moon rise="06:11:16" set="12:07:01" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="2 Feb 2027" dayweekid="2" dayweek="Tu">
+		<sunrise time="08:55:19">
+			<tithi name="Dvadasi (suitable for fasting)" elapse="0.8" index="12"/>
+			<naksatra name="Mula" elapse="7.6" />
+			<yoga name="Vyagata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:19:19">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="13:23:47" />
+		<sunset time="17:52:15" />
+		<moon rise="07:08:58" set="12:55:17" />
+		<festival name="Vyanjuli Mahadvadasi" class="-1"/>
+		<festival name="Fasting for Sat-tila Ekadasi" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="3 Feb 2027" dayweekid="3" dayweek="We">
+		<sunrise time="08:53:33">
+			<tithi name="Dvadasi" elapse="90.7" index="12"/>
+			<naksatra name="Mula" elapse="96.1" />
+			<yoga name="Harsana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:17:33">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="13:23:54" />
+		<sunset time="17:54:15" />
+		<moon rise="07:51:43" set="13:57:28" />
+		<parana from="08:53" to="11:22" />
+		<vriddhi sd="yes" />
+	</day>
+
+	<day date="4 Feb 2027" dayweekid="4" dayweek="Th">
+		<sunrise time="08:51:46">
+			<tithi name="Trayodasi" elapse="80.5" index="13"/>
+			<naksatra name="Purva-asadha" elapse="84.5" />
+			<yoga name="Vajra" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:15:46">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="13:24:01" />
+		<sunset time="17:56:16" />
+		<moon rise="08:21:23" set="15:09:24" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="5 Feb 2027" dayweekid="5" dayweek="Fr">
+		<sunrise time="08:49:57">
+			<tithi name="Caturdasi" elapse="70.6" index="14"/>
+			<naksatra name="Uttara-asadha" elapse="73.2" />
+			<yoga name="Siddhi" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:13:57">
+			<tithi name="Caturdasi" />
+		</arunodaya>
+		<noon time="13:24:07" />
+		<sunset time="17:58:16" />
+		<moon rise="08:41:51" set="16:25:48" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="6 Feb 2027" dayweekid="6" dayweek="Sa">
+		<sunrise time="08:48:06">
+			<tithi name="Amavasya" elapse="61.3" index="15"/>
+			<naksatra name="Sravana" elapse="62.4" />
+			<yoga name="Vyatipata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:12:06">
+			<tithi name="Amavasya" />
+		</arunodaya>
+		<noon time="13:24:11" />
+		<sunset time="18:00:17" />
+		<moon rise="08:56:33" set="17:43:02" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="7 Feb 2027" dayweekid="0" dayweek="Su">
+		<sunrise time="08:46:13">
+			<tithi name="Pratipat" elapse="52.9" index="16"/>
+			<naksatra name="Dhanista" elapse="52.5" />
+			<yoga name="Variyana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:10:13">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="13:24:15" />
+		<sunset time="18:02:18" />
+		<moon rise="09:07:48" set="18:59:32" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="8 Feb 2027" dayweekid="1" dayweek="Mo">
+		<sunrise time="08:44:18">
+			<tithi name="Dvitiya" elapse="45.6" index="17"/>
+			<naksatra name="Satabhisa" elapse="43.5" />
+			<yoga name="Parigha" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:08:18">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="13:24:19" />
+		<sunset time="18:04:19" />
+		<moon rise="09:17:09" set="20:15:15" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="9 Feb 2027" dayweekid="2" dayweek="Tu">
+		<sunrise time="08:42:22">
+			<tithi name="Tritiya" elapse="39.7" index="18"/>
+			<naksatra name="Purva-bhadra" elapse="35.8" />
+			<yoga name="Siva" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:06:22">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="13:24:21" />
+		<sunset time="18:06:20" />
+		<moon rise="09:25:41" set="21:31:02" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="10 Feb 2027" dayweekid="3" dayweek="We">
+		<sunrise time="08:40:24">
+			<tithi name="Caturthi" elapse="35.4" index="19"/>
+			<naksatra name="Uttara-bhadra" elapse="29.5" />
+			<yoga name="Siddha" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:04:24">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="13:24:23" />
+		<sunset time="18:08:21" />
+		<moon rise="09:34:18" set="22:48:10" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="11 Feb 2027" dayweekid="4" dayweek="Th">
+		<sunrise time="08:38:24">
+			<tithi name="Pancami" elapse="32.9" index="20"/>
+			<naksatra name="Revati" elapse="24.8" />
+			<yoga name="Sadhya" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:02:24">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="13:24:24" />
+		<sunset time="18:10:23" />
+		<moon rise="09:43:55" set="N/A" />
+		<festival name="Vasanta Pancami" class="1"/>
+		<festival name="Srimati Visnupriya Devi -- Appearance" class="3"/>
+		<festival name="Sarasvati Puja" class="5"/>
+		<festival name="Srila Visvanatha Cakravarti Thakura -- Disappearance" class="3"/>
+		<festival name="Sri Pundarika Vidyanidhi -- Appearance" class="3"/>
+		<festival name="Sri Raghunandana Thakura -- Appearance" class="3"/>
+		<festival name="Srila Raghunatha Dasa Gosvami -- Appearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="12 Feb 2027" dayweekid="5" dayweek="Fr">
+		<sunrise time="08:36:23">
+			<tithi name="Sasti" elapse="32.6" index="21"/>
+			<naksatra name="Asvini" elapse="22.1" />
+			<yoga name="Subha" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="07:00:23">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="13:24:24" />
+		<sunset time="18:12:24" />
+		<moon rise="09:55:45" set="00:08:00" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="13 Feb 2027" dayweekid="6" dayweek="Sa">
+		<sunrise time="08:34:21">
+			<tithi name="Saptami" elapse="34.6" index="22"/>
+			<naksatra name="Bharani" elapse="21.5" />
+			<yoga name="Sukla" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:58:21">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="13:24:23" />
+		<sunset time="18:14:25" />
+		<moon rise="10:11:39" set="01:31:22" />
+		<festival name="Sri Advaita Acarya -- Appearance" class="0"/>
+		<sankranti rasi="Kumbha" time="07:30:44" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="14 Feb 2027" dayweekid="0" dayweek="Su">
+		<sunrise time="08:32:17">
+			<tithi name="Astami" elapse="39.1" index="23"/>
+			<naksatra name="Krittika" elapse="23.1" />
+			<yoga name="Brahma" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:56:17">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="13:24:21" />
+		<sunset time="18:16:26" />
+		<moon rise="10:34:43" set="02:57:31" />
+		<festival name="Bhismastami" class="1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="15 Feb 2027" dayweekid="1" dayweek="Mo">
+		<sunrise time="08:30:12">
+			<tithi name="Navami" elapse="46.4" index="24"/>
+			<naksatra name="Rohini" elapse="27.2" />
+			<yoga name="Indra" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:54:12">
+			<tithi name="Navami" />
+		</arunodaya>
+		<noon time="13:24:19" />
+		<sunset time="18:18:27" />
+		<moon rise="11:09:59" set="04:22:23" />
+		<festival name="Sri Madhvacarya -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="16 Feb 2027" dayweekid="2" dayweek="Tu">
+		<sunrise time="08:28:06">
+			<tithi name="Dasami" elapse="56.3" index="25"/>
+			<naksatra name="Mrigasira" elapse="33.7" />
+			<yoga name="Viskumba" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:52:06">
+			<tithi name="Dasami" />
+		</arunodaya>
+		<noon time="13:24:16" />
+		<sunset time="18:20:27" />
+		<moon rise="12:03:50" set="05:37:47" />
+		<festival name="Sri Ramanujacarya -- Disappearance" class="3"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="17 Feb 2027" dayweekid="3" dayweek="We">
+		<sunrise time="08:25:58">
+			<tithi name="Ekadasi (suitable for fasting)" elapse="68.6" index="26"/>
+			<naksatra name="Ardra" elapse="42.3" />
+			<yoga name="Priti" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:49:58">
+			<tithi name="Ekadasi" />
+		</arunodaya>
+		<noon time="13:24:13" />
+		<sunset time="18:22:28" />
+		<moon rise="13:19:08" set="06:35:47" />
+		<festival name="Fasting for Bhaimi Ekadasi" class="-1"/>
+		<festival name="(Fast till noon for Varahadeva, with feast tomorrow)" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="18 Feb 2027" dayweekid="4" dayweek="Th">
+		<sunrise time="08:23:49">
+			<tithi name="Dvadasi" elapse="82.8" index="27"/>
+			<naksatra name="Punarvasu" elapse="52.7" />
+			<yoga name="Ayusmana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:47:49">
+			<tithi name="Dvadasi" />
+		</arunodaya>
+		<noon time="13:24:08" />
+		<sunset time="18:24:28" />
+		<moon rise="14:50:11" set="07:15:25" />
+		<parana from="08:23" to="11:44" />
+		<festival name="Varaha Dvadasi: Appearance of Lord Varahadeva" class="0"/>
+		<festival name="(Fasting is done yesterday, today is feast)" class="-1"/>
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="19 Feb 2027" dayweekid="5" dayweek="Fr">
+		<sunrise time="08:21:39">
+			<tithi name="Trayodasi" elapse="98.0" index="28"/>
+			<naksatra name="Pusyami" elapse="64.0" />
+			<yoga name="Saubhagya" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:45:39">
+			<tithi name="Trayodasi" />
+		</arunodaya>
+		<noon time="13:24:03" />
+		<sunset time="18:26:28" />
+		<moon rise="16:27:02" set="07:41:40" />
+		<festival name="Nityananda Trayodasi: Appearance of Sri Nityananda Prabhu" class="0"/>
+		<festival name="(Fast till noon)" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="20 Feb 2027" dayweekid="6" dayweek="Sa">
+		<sunrise time="08:19:28">
+			<tithi name="Purnima" elapse="13.4" index="30"/>
+			<naksatra name="Aslesa" elapse="75.4" />
+			<yoga name="Sobana" />
+			<paksa id="G" name="Gaura"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:43:28">
+			<tithi name="Purnima" />
+		</arunodaya>
+		<noon time="13:23:58" />
+		<sunset time="18:28:28" />
+		<moon rise="18:02:51" set="07:59:47" />
+		<festival name="Sri Krsna Madhura Utsava" class="1"/>
+		<festival name="Srila Narottama Dasa Thakura -- Appearance" class="3"/>
+		<ksaya from="08:45" to="05:31" />
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+	<masa name="Govinda Masa" gyear="Gaurabda 540">
+	<day date="21 Feb 2027" dayweekid="0" dayweek="Su">
+		<sunrise time="08:17:15">
+			<tithi name="Pratipat" elapse="27.9" index="1"/>
+			<naksatra name="Magha" elapse="85.9" />
+			<yoga name="Atiganda" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:41:15">
+			<tithi name="Pratipat" />
+		</arunodaya>
+		<noon time="13:23:51" />
+		<sunset time="18:30:28" />
+		<moon rise="19:35:08" set="08:13:20" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="22 Feb 2027" dayweekid="1" dayweek="Mo">
+		<sunrise time="08:15:02">
+			<tithi name="Dvitiya" elapse="40.4" index="2"/>
+			<naksatra name="Purva-phalguni" elapse="94.7" />
+			<yoga name="Dhriti" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:39:02">
+			<tithi name="Dvitiya" />
+		</arunodaya>
+		<noon time="13:23:44" />
+		<sunset time="18:32:27" />
+		<moon rise="21:04:07" set="08:24:30" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="23 Feb 2027" dayweekid="2" dayweek="Tu">
+		<sunrise time="08:12:48">
+			<tithi name="Tritiya" elapse="50.1" index="3"/>
+			<naksatra name="Hasta" elapse="1.0" />
+			<yoga name="Sula" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:36:48">
+			<tithi name="Tritiya" />
+		</arunodaya>
+		<noon time="13:23:37" />
+		<sunset time="18:34:26" />
+		<moon rise="22:30:54" set="08:34:48" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="24 Feb 2027" dayweekid="3" dayweek="We">
+		<sunrise time="08:10:32">
+			<tithi name="Caturthi" elapse="56.5" index="4"/>
+			<naksatra name="Citra" elapse="4.3" />
+			<yoga name="Ganda" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:34:32">
+			<tithi name="Caturthi" />
+		</arunodaya>
+		<noon time="13:23:29" />
+		<sunset time="18:36:25" />
+		<moon rise="N/A" set="08:45:27" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="25 Feb 2027" dayweekid="4" dayweek="Th">
+		<sunrise time="08:08:16">
+			<tithi name="Pancami" elapse="59.4" index="5"/>
+			<naksatra name="Swati" elapse="4.4" />
+			<yoga name="Vriddhi" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:32:16">
+			<tithi name="Pancami" />
+		</arunodaya>
+		<noon time="13:23:20" />
+		<sunset time="18:38:23" />
+		<moon rise="N/A" set="08:57:42" />
+		<festival name="Sri Purusottama Das Thakura -- Disappearance" class="3"/>
+		<festival name="Srila Bhaktisiddhanta Sarasvati Thakura -- Appearance" class="2"/>
+		<festival name="(Fast till noon)" class="-1"/>
+		<fast type="" mark="*" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="26 Feb 2027" dayweekid="5" dayweek="Fr">
+		<sunrise time="08:05:59">
+			<tithi name="Sasti" elapse="58.8" index="6"/>
+			<naksatra name="Visakha" elapse="1.5" />
+			<yoga name="Dhruva" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:29:59">
+			<tithi name="Sasti" />
+		</arunodaya>
+		<noon time="13:23:10" />
+		<sunset time="18:40:22" />
+		<moon rise="01:20:52" set="09:13:14" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="27 Feb 2027" dayweekid="6" dayweek="Sa">
+		<sunrise time="08:03:41">
+			<tithi name="Saptami" elapse="55.2" index="7"/>
+			<naksatra name="Visakha" elapse="95.7" />
+			<yoga name="Vyagata" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:27:41">
+			<tithi name="Saptami" />
+		</arunodaya>
+		<noon time="13:23:00" />
+		<sunset time="18:42:20" />
+		<moon rise="02:42:32" set="09:34:30" />
+		<vriddhi sd="no" />
+	</day>
+
+	<day date="28 Feb 2027" dayweekid="0" dayweek="Su">
+		<sunrise time="08:01:22">
+			<tithi name="Astami" elapse="48.9" index="8"/>
+			<naksatra name="Anuradha" elapse="87.6" />
+			<yoga name="Harsana" />
+			<paksa id="K" name="Krsna"/>
+		</sunrise>
+		<dst offset="0" />
+		<arunodaya time="06:25:22">
+			<tithi name="Astami" />
+		</arunodaya>
+		<noon time="13:22:50" />
+		<sunset time="18:44:17" />
+		<moon rise="03:57:44" set="10:04:56" />
+		<vriddhi sd="no" />
+	</day>
+
+	</masa>
+</result>
+</xml>
