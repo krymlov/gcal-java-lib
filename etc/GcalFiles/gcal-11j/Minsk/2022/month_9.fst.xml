@@ -198,6 +198,7 @@
 		<moon rise="20:12:00" set="05:53:22" />
 		<festival name="Sri Visvarupa Mahotsava" class="1"/>
 		<festival name="Acceptance of sannyasa by Srila Prabhupada" class="4"/>
+		<festival name="Bhadrapada Purnima" class="5"/>
 		<vriddhi sd="no" />
 		<caturmasya day="first" month="3" system="PURNIMA" />
 		<caturmasya day="last" month="2" system="PRATIPAT" />
