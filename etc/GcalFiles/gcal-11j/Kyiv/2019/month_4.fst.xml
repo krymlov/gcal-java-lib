@@ -248,7 +248,7 @@
 		<sunset time="19:50:18" />
 		<moon rise="13:15:51" set="03:56:14" />
 		<festival name="Rama Navami: Appearance of Lord Sri Ramacandra" class="0"/>
-		<festival name="(Fast till sunset)" class="-1"/>
+		<festival name="(Fast till noon)" class="-1"/>
 		<festival name="Tulasi Jala Dan begins." class="5"/>
 		<fast type="" mark="*" />
 		<sankranti rasi="Mesa" time="11:36:51" />

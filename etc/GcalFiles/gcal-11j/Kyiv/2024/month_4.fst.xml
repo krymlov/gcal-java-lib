@@ -305,7 +305,7 @@
 		<sunset time="19:56:21" />
 		<moon rise="12:51:18" set="04:07:48" />
 		<festival name="Rama Navami: Appearance of Lord Sri Ramacandra" class="0"/>
-		<festival name="(Fast till sunset)" class="-1"/>
+		<festival name="(Fast till noon)" class="-1"/>
 		<fast type="" mark="*" />
 		<vriddhi sd="no" />
 	</day>
