@@ -13,18 +13,18 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <junit-jupiter.version>5.10.3</junit-jupiter.version>
+        <junit-jupiter.version>5.12.2</junit-jupiter.version>
         <maven.compiler.release>8</maven.compiler.release>
     </properties>
 
     <dependencies>
-	
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.16.1</version>
-			<scope>test</scope>
-		</dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.16.1</version>
+            <scope>test</scope>
+        </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -36,7 +36,7 @@
         <dependency>
             <groupId>org.junit.platform</groupId>
             <artifactId>junit-platform-launcher</artifactId>
-            <version>1.10.3</version>
+            <version>1.12.2</version>
             <scope>test</scope>
         </dependency>
 
@@ -77,6 +77,9 @@
                 <version>3.3.1</version>
                 <configuration>
                     <argLine>-Djava.library.path="${basedir}/libs;${java.library.path}"</argLine>
+                    <additionalClasspathElements>
+                        <additionalClasspathElement>ephe</additionalClasspathElement>
+                    </additionalClasspathElements>
                 </configuration>
             </plugin>
         </plugins>
