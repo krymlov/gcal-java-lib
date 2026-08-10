@@ -292,7 +292,7 @@
 		<sunset time="21:43:40" />
 		<moon rise="19:57:34" set="02:10:43" />
 		<festival name="Panihati Cida Dahi Utsava" class="1"/>
-		<sankranti rasi="Mithuna" time="16:16:22" />
+		<sankranti rasi="Mithuna" date="15 Jun 2027" time="16:16:22" />
 		<vriddhi sd="no" />
 	</day>
 

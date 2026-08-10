@@ -281,7 +281,7 @@
 		<moon rise="04:01:03" set="15:38:42" />
 		<festival name="Fasting for Apara Ekadasi" class="-1"/>
 		<fast type="" mark="*" />
-		<sankranti rasi="Vrsabha" time="09:04:44" />
+		<sankranti rasi="Vrsabha" date="15 May 2023" time="09:04:44" />
 		<vriddhi sd="no" />
 	</day>
 

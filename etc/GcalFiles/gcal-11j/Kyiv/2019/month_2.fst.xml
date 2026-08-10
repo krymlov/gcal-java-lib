@@ -237,7 +237,7 @@
 		<sunset time="17:11:04" />
 		<moon rise="11:04:32" set="01:06:26" />
 		<festival name="Bhismastami" class="1"/>
-		<sankranti rasi="Kumbha" time="05:17:01" />
+		<sankranti rasi="Kumbha" date="13 Feb 2019" time="05:17:01" />
 		<vriddhi sd="no" />
 	</day>
 

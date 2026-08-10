@@ -270,7 +270,7 @@
 		<sunset time="17:17:58" />
 		<moon rise="22:26:36" set="10:32:52" />
 		<festival name="Ganga Sagara Mela" class="5"/>
-		<sankranti rasi="Makara" time="00:41:17" />
+		<sankranti rasi="Makara" date="15 Jan 2028" time="00:41:17" />
 		<vriddhi sd="no" />
 	</day>
 

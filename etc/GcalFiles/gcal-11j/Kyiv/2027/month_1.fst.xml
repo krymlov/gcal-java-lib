@@ -271,7 +271,7 @@
 		<sunset time="16:22:10" />
 		<moon rise="10:30:06" set="N/A" />
 		<festival name="Ganga Sagara Mela" class="5"/>
-		<sankranti rasi="Makara" time="17:31:55" />
+		<sankranti rasi="Makara" date="14 Jan 2027" time="17:31:55" />
 		<vriddhi sd="no" />
 	</day>
 

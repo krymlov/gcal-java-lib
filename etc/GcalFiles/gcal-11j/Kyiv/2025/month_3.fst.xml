@@ -273,7 +273,7 @@
 		<sunset time="18:02:55" />
 		<moon rise="19:34:54" set="06:25:24" />
 		<festival name="Festival of Jagannatha Misra" class="1"/>
-		<sankranti rasi="Mina" time="15:03:30" />
+		<sankranti rasi="Mina" date="14 Mar 2025" time="15:03:30" />
 		<vriddhi sd="no" />
 	</day>
 

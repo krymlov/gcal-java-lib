@@ -311,7 +311,7 @@
 		<festival name="Lord Balarama -- Appearance" class="0"/>
 		<festival name="(Fast till noon)" class="-1"/>
 		<fast type="" mark="*" />
-		<sankranti rasi="Simha" time="11:33:34" />
+		<sankranti rasi="Simha" date="17 Aug 2027" time="11:33:34" />
 		<vriddhi sd="no" />
 		<caturmasya day="first" month="2" system="PURNIMA" />
 		<caturmasya day="last" month="1" system="PRATIPAT" />
