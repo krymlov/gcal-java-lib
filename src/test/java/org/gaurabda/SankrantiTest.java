@@ -23,12 +23,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * The two are not the same thing, and confusing them is what makes the library look wrong. In
  * {@code q=calendar} the enclosing {@code <day>} is the day the event is <b>attributed</b> to,
  * and the default rule carries an event that happens after local noon onto the next day. The
- * {@code time} attribute has always been the true moment, so date and time described different
- * days: Makara 2024 read as "15 Jan ... 23:04:46" when the crossing is on 14 Jan at 23:04:46
- * local, and every other program says 14 January.
+ * {@code time} attribute has always been the true moment, so date and time described
+ * different days: Makara 2024 read as "15 Jan ... 23:04:46" when the crossing is on
+ * 14 Jan at 23:04:46 local, and every other program says 14 January.
  * <p>
- * The element now carries an explicit {@code date}, and {@code &san=} chooses the attribution
- * rule. Both are pinned here.
+ * The fix was to make the element carry an explicit {@code date}, so date and time always
+ * describe the same instant whatever the rule is. The default is left at rule 2 on purpose -
+ * the attribution feeds the festival calculations, so it is not free to change - and
+ * {@code &san=} selects any of the four rules for a caller that wants a different one.
  *
  * @author Yura Krymlov
  * @version 1.0, 2026-08
@@ -106,17 +108,21 @@ public class SankrantiTest extends AGaurabdaTest {
     }
 
     /**
-     * The default rule files it under the 15th - it happens after local noon - and that is
-     * what made it look like a miscalculation. The date attribute keeps the two apart.
+     * The default stays rule 2 - an event after local noon is filed under the next day - and
+     * that is deliberate: the attribution feeds the festival calculations, so changing it
+     * moves more than the sankranti line. It is also what the reference files in
+     * etc/GcalFiles were generated with.
+     * <p>
+     * The {@code date} attribute is how a caller gets the real day without changing the rule.
      */
     @Test
     void theDefaultRuleFilesMakara2024UnderTheFifteenth() {
         String[] s = sankrantisOf(calendar(2024, 1, 13, 4, "")).get(0);
         assertEquals("15 Jan 2024", s[0], "attributed day");
-        assertEquals("14 Jan 2024", s[2], "true day");
+        assertEquals("14 Jan 2024", s[2], "true day - what other programs report");
     }
 
-    /** and asking for the same-day rule puts it where other programs report it */
+    /** and rule 0 files it under the day it happens on, for a caller that wants that */
     @Test
     void theSameDayRulePutsMakara2024UnderTheFourteenth() {
         String[] s = sankrantisOf(calendar(2024, 1, 13, 4, SAME_DAY)).get(0);
@@ -142,7 +148,7 @@ public class SankrantiTest extends AGaurabdaTest {
     void theRuleDoesNotLeakIntoTheNextQuery() {
         assertEquals("14 Jan 2024", sankrantisOf(calendar(2024, 1, 13, 4, SAME_DAY)).get(0)[0]);
         assertEquals("15 Jan 2024", sankrantisOf(calendar(2024, 1, 13, 4, "")).get(0)[0],
-                "the previous query's san=0 must not carry over");
+                "the previous query's san=0 must not carry over into the default");
     }
 
     // ================================================== the moments themselves
