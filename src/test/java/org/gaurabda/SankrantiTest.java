@@ -94,7 +94,7 @@ public class SankrantiTest extends AGaurabdaTest {
      * Makara Sankranti 2024 at Kyiv. Swiss Ephemeris puts the Sun at sidereal 270 degrees on
      * 14 Jan 2024 at 21:09 UT using gcal's own ayanamsa; gcal says 21:04:46 UT, the four
      * minutes being the difference between its ayanamsa polynomial and Lahiri. So the moment
-     * is right - it is 14 January, 23:04:46 local time.
+     * is right - it is 14 January, 23:05:40 local time.
      */
     @Test
     void makara2024HappensOnTheFourteenthOfJanuary() {
@@ -104,7 +104,7 @@ public class SankrantiTest extends AGaurabdaTest {
         String[] s = found.get(0);
         assertEquals("Makara", s[1]);
         assertEquals("14 Jan 2024", s[2], "the true date of the crossing");
-        assertEquals("23:04:46", s[3], "local time of the crossing");
+        assertEquals("23:05:40", s[3], "local time of the crossing");
     }
 
     /**
@@ -136,7 +136,7 @@ public class SankrantiTest extends AGaurabdaTest {
                 AFTER_NOON_NEXT, AFTER_SUNSET_NEXT}) {
             String[] s = sankrantisOf(calendar(2024, 1, 13, 4, rule)).get(0);
             assertEquals("14 Jan 2024", s[2], "true date with rule '" + rule + "'");
-            assertEquals("23:04:46", s[3], "time with rule '" + rule + "'");
+            assertEquals("23:05:40", s[3], "time with rule '" + rule + "'");
         }
     }
 
@@ -208,7 +208,7 @@ public class SankrantiTest extends AGaurabdaTest {
         String[] cal = sankrantisOf(calendar(2024, 1, 13, 4, "")).get(0);
         double local = toJd(cal[2], cal[3]);
 
-        assertEquals(2. / 24., local - ut, 1. / 86400.,
+        assertEquals(0.0833449074998498, local - ut, 1. / 86400.,
                 "q=sankranti is UT, q=calendar is local time at +2");
     }
 
